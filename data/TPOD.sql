@@ -1,6 +1,6 @@
 delete from ReleasesBase where itemid = 'TPOD';
 insert into ReleasesBase(itemid,label,versienummer,downloaduri,releasedatum,status) VALUES
-    ('TPOD','A-tripelaccent','TPOD/0.1.0-todo','https://www.geonovum.nl/geo-standaarden/omgevingswet/STOPTPOD','2019-07-10','definitief');
+    ('TPOD','A-tripelaccent','0.1.0-todo','https://www.geonovum.nl/geo-standaarden/omgevingswet/STOPTPOD','2019-07-10','definitief');
 
 DELETE FROM ReleaseDependencies
 where itemid like 'TPOD/%';
