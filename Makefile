@@ -1,6 +1,11 @@
 #
 # A gdf file can be opened by a graph visualiation tool.
 # 
+create:
+	sqlite3 ConfiguratieItems.sqlite < create.sql
+load:
+	cat data/*sql | sqlite3 ConfiguratieItems.sqlite 
+
 all: DependencyGraph.gdf release.md web/index.html configuratieitems.md
 
 DependencyGraph.gdf: ConfiguratieItems.sqlite MakeDependencyGraph.sql
@@ -15,6 +20,8 @@ configuratieitems.md: Makefile printconfigurationitems.sql
 web/index.html: release.md configuratieitems.md Makefile
 	cat configuratieitems.md release.md | pandoc -s --css=style.css --metadata pagetitle="Configuratie Items" -f markdown -t html5 -o web/index.html
 
+export:
+	sqlite3 ConfiguratieItems.sqlite < export.sql
 
 clean:
 	rm -f DependencyGraph.gdf
