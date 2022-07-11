@@ -14,8 +14,8 @@ DependencyGraph.gdf: ConfiguratieItems.sqlite MakeDependencyGraph.sql
 release.md: ConfiguratieItems.sqlite Makefile printreleases.py
 	./printreleases.py > release.md
 
-configuratieitems.md: Makefile printconfigurationitems.sql
-	sqlite3 ConfiguratieItems.sqlite < printconfigurationitems.sql > configuratieitems.md
+configuratieitems.md: Makefile printconfigurationitems.py ConfiguratieItems.sqlite
+	./printconfigurationitems.py > configuratieitems.md
 
 web/index.html: release.md configuratieitems.md Makefile
 	cat configuratieitems.md release.md | pandoc -s --css=style.css --metadata pagetitle="Configuratie Items" -f markdown -t html5 -o web/index.html
