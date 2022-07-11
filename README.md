@@ -3,14 +3,19 @@ Beheer van configuratie items die van belang zijn voor het DSO. Conceptueel word
 
 ![UML](web/UML.png)
 
+Inhoudelijk beschrijft het volgende plaatje de Beheeritems van Geonovum met afhankelijkheden. De inhoud van dit plaatje inclusief omschrijvingen van de packages etc. is ook machineleesbaar beschikbaar in het estande ConfiguratieItems.sqlite.
+
+![Configuratieitems van Geonovum](web/Geonovum.png)
+
+De bestanden in dit repository zijn:
 |  file | omschrijving |
 | ----|----|
 | ConfiguratieItems.sqlite | database met configuratieitems. |
 | MakeDependencyGraph.sql | script om dependency graph te maken die bijvoorbeeld met Gephi gevisualiseerd kan worden. |
-| MakeRelease.sql | Voorbeels script om release leesbaar uit database te halen.|
+| MakeRelease.sql | Voorbeeldscript om release leesbaar uit database te halen.|
 | create.sql | SQL om lege dependency database te maken. |
 | Makefile | Makefile. |
-| data/*   | sql scripts to fill the dependency database. |
+| data/*   | sql scripts om database te vullen. |
 | web/*    | website gegenereerd vanuit database. |
 | README.md | Dit bestand. |
 
