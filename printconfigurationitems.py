@@ -17,7 +17,7 @@ for row in cur.execute('SELECT id, naam, omschrijving, organisatie, intern, rele
     print('| id  |' + id + '|');
     print('| omschrijving  |' + str(omschrijving) + '|');
     print('| organisatie  |' + str(organisatie) + '|');
-    print('| releaselocatie  |' + str(releaselocatie) + '|');
+    print('| releaselocatie  | [link](' + str(releaselocatie) + ')|');
     print('| intern  |' + str(internx) + '|');
     print('| type  |' + str(typex) + '|');
     print()
