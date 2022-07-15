@@ -3,7 +3,6 @@
 # 
 create:
 	sqlite3 ConfiguratieItems.sqlite < create.sql
-load:
 	cat data/*sql | sqlite3 ConfiguratieItems.sqlite 
 
 all: DependencyGraph.gdf release.md web/index.html configuratieitems.md
