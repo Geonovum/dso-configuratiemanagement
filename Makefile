@@ -1,30 +1,25 @@
 #
 # A gdf file can be opened by a graph visualiation tool.
 # 
+
+all: DependencyGraph.gdf release.md docs/index.html docs/index.md
+
+DependencyGraph.gdf: ConfiguratieItems.sqlite sqlite2gdf.sql
+	sqlite3 ConfiguratieItems.sqlite < sqlite2gdf.sql > DependencyGraph.gdf
+
+docs/index.md: Makefile CreateWebsite.py ConfiguratieItems.sqlite
+	./CreateWebsite.py 
+
+docs/index.html: release.md docs/index.md Makefile
+	cat docs/index.md | pandoc -s --css=style.css --metadata pagetitle="Configuratie Items" -f markdown -t html5 -o docs/index.html
+
 create:
 	sqlite3 ConfiguratieItems.sqlite < create.sql
 	cat data/*sql | sqlite3 ConfiguratieItems.sqlite 
 
-all: DependencyGraph.gdf release.md web/index.html configuratieitems.md
-
-DependencyGraph.gdf: ConfiguratieItems.sqlite MakeDependencyGraph.sql
-	sqlite3 ConfiguratieItems.sqlite < MakeDependencyGraph.sql > DependencyGraph.gdf
-
-release.md: ConfiguratieItems.sqlite Makefile printreleases.py
-	./printreleases.py > release.md
-
-configuratieitems.md: Makefile printconfigurationitems.py ConfiguratieItems.sqlite
-	./printconfigurationitems.py > configuratieitems.md
-
-web/index.html: release.md configuratieitems.md Makefile
-	cat configuratieitems.md release.md | pandoc -s --css=style.css --metadata pagetitle="Configuratie Items" -f markdown -t html5 -o web/index.html
-
-export:
-	sqlite3 ConfiguratieItems.sqlite < export.sql
-
 clean:
 	rm -f DependencyGraph.gdf
 	rm -f configuratieitems.md
-	rm -f release.md
-	rm -f web/index.html
+	rm -f docs/index.html
+	rm -f docs/Geonovum/*md
 
