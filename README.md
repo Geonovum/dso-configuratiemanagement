@@ -1,11 +1,11 @@
 # dso-configuratiemanagement
 Beheer van configuratie items die van belang zijn voor het DSO. Conceptueel wordt hier het volgende model voor gebruikt
 
-![UML](web/UML.png)
+![UML](docs/UML.png)
 
 Inhoudelijk beschrijft het volgende plaatje de Beheeritems van Geonovum met afhankelijkheden. De inhoud van dit plaatje inclusief omschrijvingen van de packages etc. is ook machineleesbaar beschikbaar in het estande ConfiguratieItems.sqlite.
 
-![Configuratieitems van Geonovum](web/Geonovum.png)
+![Configuratieitems van Geonovum](docs/Geonovum.png)
 
 De bestanden in dit repository zijn:
 |  file | omschrijving |
@@ -16,6 +16,6 @@ De bestanden in dit repository zijn:
 | create.sql | SQL om lege dependency database te maken. |
 | Makefile | Makefile. |
 | data/*   | sql scripts om database te vullen. |
-| web/*    | website gegenereerd vanuit database. |
+| docs/*    | website gegenereerd vanuit database. |
 | README.md | Dit bestand. |
 
