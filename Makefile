@@ -12,18 +12,14 @@ DependencyGraph.gdf: ConfiguratieItems.sqlite sqlite2gdf.sql
 docs/index.md: Makefile CreateWebsite.py ConfiguratieItems.sqlite
 	./CreateWebsite.py 
 
-#docs/index.html: release.md docs/index.md Makefile
-#	cat docs/index.md | pandoc -s --css=style.css --metadata pagetitle="Configuratie Items" -f markdown -t html5 -o docs/index.html
-
 create:
 	sqlite3 ConfiguratieItems.sqlite < create.sql
 	cat data/*sql | sqlite3 ConfiguratieItems.sqlite 
 
-convert: docs/index.md
+docs/index.html: docs/index.md
 	find docs -name \*.md | sed 's/.md//' | xargs -I XX -n 1 pandoc -s --css=${STYLEFILE} --metadata pagetitle=\"XX\" -f markdown -t html5 -o XX.html XX.md
 
 clean:
 	rm -f DependencyGraph.gdf
-	rm -f configuratieitems.md
-	rm -f docs/index.html
-	rm -f docs/Geonovum/*md
+	rm -f docs/index.md
+	rm -f docs/Geonovum/*/*md
