@@ -3,7 +3,8 @@ Beheer van configuratie items die van belang zijn voor het DSO. Conceptueel word
 
 ![UML](docs/UML.png)
 
-Inhoudelijk beschrijft het volgende plaatje de Beheeritems van Geonovum met afhankelijkheden. De inhoud van dit plaatje inclusief omschrijvingen van de packages etc. is ook machineleesbaar beschikbaar in het estande ConfiguratieItems.sqlite.
+Dit ropository is een proof of concept voor een database van de Beheeritems van Geonovum met afhankelijkeden. De database zit in een de file [ConfiguratieItems.sqlite](ConfiguratieItems.sqlite).
+Uit deze database wordt een [website](https://geonovum.github.io/dso-configuratiemanagement/) gemaakt.
 
 ![Configuratieitems van Geonovum](docs/Geonovum.png)
 

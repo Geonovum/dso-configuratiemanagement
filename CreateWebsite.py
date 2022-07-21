@@ -17,6 +17,7 @@ cur = con.cursor()
 indexfile = open("docs/index.md","wt")
 
 indexfile.write("# Beheeritems van Geonovum\n\n")
+indexfile.write("Proof of concept van overzicht van beheeritems van Geonovum\n\n")
 indexfile.write ("|naam|type|\n")
 indexfile.write ("|----|----|\n")
 for row in cur.execute('SELECT id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 and organisatie = "Geonovum" order by naam'):
