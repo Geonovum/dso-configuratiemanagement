@@ -35,16 +35,16 @@ indexfile.close
 #
 #  Make a separate page for each beheerItem.
 #
-for row in cur.execute('SELECT id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 and organisatie = "Geonovum" order by naam'):
+cur3 = con.cursor()
+for row in cur3.execute('SELECT id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 and organisatie = "Geonovum" order by naam'):
     id,naam,omschrijving,organisatie,internx,releaselocatie,typex = row
-
 
     #
     # Query DBMS and find dependent package.
     #
     dependencies = [];
-    cur2 = con.cursor()
-    for dep in cur2.execute('SELECT itemid,dependsonitem FROM BeheeritemDependencies where itemid = "' + id + '"'):
+    cur = con.cursor()
+    for dep in cur.execute('SELECT itemid,dependsonitem FROM BeheeritemDependencies where itemid = "' + id + '"'):
         itemid,dependson = dep;
         dependencies.append(dependson);
     #
@@ -53,6 +53,7 @@ for row in cur.execute('SELECT id, naam, omschrijving, organisatie, intern, rele
     outfolder = "docs/" + id
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
+    sys.stderr.write("Writing to: " + outfolder + "\n")
     outfile = open(outfolder + "/index.md","wt")
 
     #
@@ -87,8 +88,8 @@ for row in cur.execute('SELECT id, naam, omschrijving, organisatie, intern, rele
         rreleaseid = ritemid + '/' + rversienummer
 
         rddependencies = [];
-        rdep = con.cursor()
-        for rdep in cur.execute('SELECT itemid,dependsonitem FROM ReleaseDependencies where itemid = "' + rreleaseid + '"'):
+        curdep = con.cursor()
+        for rdep in curdep.execute('SELECT itemid,dependsonitem FROM ReleaseDependencies where itemid = "' + rreleaseid + '"'):
             rditemid,rddependson = rdep;
             rddependencies.append(rddependson);
 

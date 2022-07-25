@@ -13,11 +13,9 @@ insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaseloca
 insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/TPOD','Geonovum/IMOW-XSD');
 insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-omgevingsplan","TPOD omgevingsplan","Toepassingsprofiel omgevingsplan","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/TPOD%20Omgevingsplan");
 insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/TPOD','Geonovum/TPOD-omgevingsplan');
-insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-waterschapsverordening","TPOD waterschapsverordening","Toepassingsprofiel waterschapsverordening
-","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/TPOD_Waterschapsverordening");
+insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-waterschapsverordening","TPOD waterschapsverordening","Toepassingsprofiel waterschapsverordening","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/TPOD_Waterschapsverordening");
 insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/TPOD','Geonovum/TPOD-waterschapsverordening');
-insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-projectbesluit","TPOD projectbesluit","Toepassingsprofiel projectbesluit
-","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/TPOD%20Projectbesluit");
+insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-projectbesluit","TPOD projectbesluit","Toepassingsprofiel projectbesluit","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/TPOD%20Projectbesluit");
 insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/TPOD','Geonovum/TPOD-projectbesluit');
 insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-AMvB","TPOD AMvB en MR","Toepassingsprofiel AMvB/MR","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/TPOD%20AMvB-MR");
 insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/TPOD','Geonovum/TPOD-AMvB');
@@ -38,12 +36,13 @@ insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaseloca
 insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/TPOD','Geonovum/TPOD-voorbereidingsbesluit');
 insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-programma","TPOD programma","Toepassingsprofiel programma","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/TPOD%20Programma");
 insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/TPOD','Geonovum/TPOD-programma');
-insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/IMOW-waardelijsten","Waardelijsten IMOW","Waardelijsten IMOW.","Geonovum",false,"Standaard","");
+insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/IMOW-waardelijsten","Waardelijsten IMOW","Waardelijsten IMOW zoals gepubliceerd in de stelselcatalogus","Geonovum",false,"Standaard","");
+insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/TPOD','Geonovum/IMOW-waardelijsten');
 insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-Symbolen","Symbolenbibliotheek STOP-TPOD","Symbolen","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/Presentatiemodel");
+insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/IMOW-waardelijsten','Geonovum/TPOD-Symbolen');
 insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-N2000","TPOD Natura 2000-besluit","Toepassingsprofiel Natura 2000-besluiten","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/TPOD%20Natura%202000-besluiten");
 insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/TPOD','Geonovum/TPOD-N2000');
-insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-kennisgeving","TPOD kennisgeving omgevingsvergunning voor buitenplanse omgevingsplanactiviteiten","Toepassingsprofiel kennisgeving omgevingsvergunning voor
-buitenplanse omgevingsplanactiviteit.","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/TPOD%20Kennisgeving%20omgevingsvergunning%20buitenplanse%20omgevingsplanactiviteit");
+insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/TPOD-kennisgeving","TPOD kennisgeving omgevingsvergunning voor buitenplanse omgevingsplanactiviteiten","Toepassingsprofiel kennisgeving omgevingsvergunning voor buitenplanse omgevingsplanactiviteit.","Geonovum",false,"Standaard","https://github.com/Geonovum/TPOD/tree/master/TPOD%20Kennisgeving%20omgevingsvergunning%20buitenplanse%20omgevingsplanactiviteit");
 insert into BeheerItemDependencies(itemid,dependsonitem) values ('Geonovum/TPOD','Geonovum/TPOD-kennisgeving');
 insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("Geonovum/CIMOW","CIMOW","Conceptueel Informatiemodel Omgevingswet","Geonovum",false,"Standaard","");
 insert into BeheerItems(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("KOOP/LVBB-bronhouderskoppelvlak","LVBB bronhouderskoppelvlak","","KOOP",false,"Standaard","");
