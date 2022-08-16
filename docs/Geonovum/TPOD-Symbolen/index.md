@@ -4,7 +4,7 @@ Symbolen
 
 ## Symbolenbibliotheek STOP-TPOD
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/Presentatiemodel](<https://github.com/Geonovum/TPOD/tree/master/Presentatiemodel>)|
 | organisatie  |Geonovum|
@@ -13,7 +13,7 @@ Symbolen
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.98-beta](<https://github.com/Geonovum/TPOD/blob/master/Presentatiemodel/Presentatiemodel STOPTPOD v0.98-beta.pdf>)|None||
 | [0.98-kern](<https://github.com/Geonovum/TPOD/blob/master/Presentatiemodel/Presentatiemodel STOPTPOD v0.98-kern.pdf>)|None||

@@ -4,7 +4,7 @@ Validatie- en conformiteitsregels voor registratie en publicatie van omgevingsdo
 
 ## TPOD validatieregels
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/Validatieregels](<https://github.com/Geonovum/TPOD/tree/master/Validatieregels>)|
 | organisatie  |Geonovum|
@@ -13,7 +13,7 @@ Validatie- en conformiteitsregels voor registratie en publicatie van omgevingsdo
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.9](<https://github.com/Geonovum/TPOD/blob/master/Validatieregels/Toelichting Validatieproces DSO v0.9.pdf>)|None||
 | [0.98-kern](<https://github.com/Geonovum/TPOD/blob/master/Validatieregels/Validatie- en conformiteitsregels TPOD v0.98-kern.pdf>)|None||

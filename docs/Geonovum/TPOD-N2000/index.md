@@ -4,7 +4,7 @@ Toepassingsprofiel Natura 2000-besluiten
 
 ## TPOD Natura 2000-besluit
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/TPOD%20Natura%202000-besluiten](<https://github.com/Geonovum/TPOD/tree/master/TPOD%20Natura%202000-besluiten>)|
 | organisatie  |Geonovum|
@@ -13,7 +13,7 @@ Toepassingsprofiel Natura 2000-besluiten
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.99.0](<https://github.com/Geonovum/TPOD/blob/master/TPOD Natura 2000-besluiten/TPOD Natura 2000-besluiten v0.99.0.pdf>)|None||
 | [1.0.0](<https://github.com/Geonovum/TPOD/blob/master/TPOD Natura 2000-besluiten/TPOD Natura 2000-besluiten v1.0.0.pdf>)|None||

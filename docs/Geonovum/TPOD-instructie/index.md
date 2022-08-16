@@ -4,7 +4,7 @@ Toepassingsprofiel instructie.
 
 ## TPOD instructie
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/TPOD%20Instructie](<https://github.com/Geonovum/TPOD/tree/master/TPOD%20Instructie>)|
 | organisatie  |Geonovum|
@@ -13,7 +13,7 @@ Toepassingsprofiel instructie.
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.97.1.1](<https://github.com/Geonovum/TPOD/blob/master/TPOD Instructie/TPOD Instructie v0.97.1.1.pdf>)|None||
 | [0.98.2-kern](<https://github.com/Geonovum/TPOD/blob/master/TPOD Instructie/TPOD Instructie v0.98.2-kern.pdf>)|None||

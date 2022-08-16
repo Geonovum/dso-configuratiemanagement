@@ -4,7 +4,7 @@
 
 ## Presentatiemodel TPOD
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/Presentatiemodel](<https://github.com/Geonovum/TPOD/tree/master/Presentatiemodel>)|
 | organisatie  |Geonovum|
@@ -13,6 +13,6 @@
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 

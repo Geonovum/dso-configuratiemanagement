@@ -4,7 +4,7 @@ Toepassingsprofiel programma
 
 ## TPOD programma
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/TPOD%20Programma](<https://github.com/Geonovum/TPOD/tree/master/TPOD%20Programma>)|
 | organisatie  |Geonovum|
@@ -13,7 +13,7 @@ Toepassingsprofiel programma
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.99.0](<https://github.com/Geonovum/TPOD/blob/master/TPOD Programma/TPOD Programma v0.99.0.pdf>)|None||
 | [1.0](<https://github.com/Geonovum/TPOD/blob/master/TPOD Programma/TPOD Programma v1.0.pdf>)|None||

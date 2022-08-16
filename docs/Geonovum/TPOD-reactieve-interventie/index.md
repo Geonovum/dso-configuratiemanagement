@@ -4,7 +4,7 @@ Toepassingsprofiel reactieve interventie.
 
 ## TPOD reactieve interventie
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/TPOD_Reactieve_interventie](<https://github.com/Geonovum/TPOD/tree/master/TPOD_Reactieve_interventie>)|
 | organisatie  |Geonovum|
@@ -13,7 +13,7 @@ Toepassingsprofiel reactieve interventie.
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.97.1](<https://github.com/Geonovum/TPOD/blob/master/TPOD_Reactieve_interventie/TPOD Reactieve interventie v0.97.1.pdf>)|None||
 | [0.98.2-kern](<https://github.com/Geonovum/TPOD/blob/master/TPOD_Reactieve_interventie/TPOD Reactieve interventie v0.98.2-kern.pdf>)|None||

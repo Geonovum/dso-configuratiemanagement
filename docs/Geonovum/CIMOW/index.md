@@ -4,7 +4,7 @@ Conceptueel Informatiemodel Omgevingswet
 
 ## CIMOW
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [](<>)|
 | organisatie  |Geonovum|
@@ -14,7 +14,7 @@ Conceptueel Informatiemodel Omgevingswet
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.98.1-beta](<https://github.com/Geonovum/TPOD/blob/master/CIMOW/CIMOW v0.98.1-beta.pdf>)|None||
 | [0.98.1-kern](<https://github.com/Geonovum/TPOD/blob/master/CIMOW/CIMOW v0.98.1-kern.pdf>)|None||

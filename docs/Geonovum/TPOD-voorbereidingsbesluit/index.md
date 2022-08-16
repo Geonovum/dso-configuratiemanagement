@@ -4,7 +4,7 @@ Toepassingsprofiel voorbereidingsbesluit.
 
 ## TPOD voorbereidingsbesluit
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/TPOD_Voorbereidingsbesluit](<https://github.com/Geonovum/TPOD/tree/master/TPOD_Voorbereidingsbesluit>)|
 | organisatie  |Geonovum|
@@ -13,7 +13,7 @@ Toepassingsprofiel voorbereidingsbesluit.
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.97.1](<https://github.com/Geonovum/TPOD/blob/master/TPOD_Voorbereidingsbesluit/TPOD Voorbereidingsbesluit v0.97.1.pdf>)|None||
 | [0.98.2-kern](<https://github.com/Geonovum/TPOD/blob/master/TPOD_Voorbereidingsbesluit/TPOD Voorbereidingsbesluit v0.98.2-kern.pdf>)|None||

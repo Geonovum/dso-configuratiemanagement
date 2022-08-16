@@ -4,7 +4,7 @@ XML-Applicatieschema voor gegevensuitwisselling conform de IMOW standaard
 
 ## XSD IMOW
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/xmlschema](<https://github.com/Geonovum/TPOD/tree/master/xmlschema>)|
 | organisatie  |Geonovum|
@@ -14,7 +14,7 @@ XML-Applicatieschema voor gegevensuitwisselling conform de IMOW standaard
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.98-beta](<https://github.com/Geonovum/TPOD/blob/master/CIMOW/IMOW XSD v0.98-beta>)|None||
 | [0.98-kern](<https://github.com/Geonovum/TPOD/blob/master/xmlschema/v0.98-kern>)|None||

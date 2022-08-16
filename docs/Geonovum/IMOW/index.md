@@ -4,7 +4,7 @@ Informatiemodel Omgevingswet
 
 ## IMOW model
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/CIMOW](<https://github.com/Geonovum/TPOD/tree/master/CIMOW>)|
 | organisatie  |Geonovum|
@@ -14,7 +14,7 @@ Informatiemodel Omgevingswet
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.98-kern](<https://github.com/Geonovum/TPOD/blob/master/CIMOW/IMOW Van plan tot publicatie v0.98-kern.pdf>)|None||
 | [0.98.1-beta](<https://github.com/Geonovum/TPOD/blob/master/CIMOW/IMOW v0.98.1-beta.pdf>)|None||

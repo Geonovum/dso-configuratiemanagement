@@ -4,7 +4,7 @@
 
 ## TPOD omgevingsvisie
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/TPOD%20Omgevingsvisie](<https://github.com/Geonovum/TPOD/tree/master/TPOD%20Omgevingsvisie>)|
 | organisatie  |Geonovum|
@@ -13,7 +13,7 @@
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.98-kern](<https://github.com/Geonovum/TPOD/blob/master/TPOD Omgevingsvisie/TPOD Omgevingsvisie v0.98-kern.pdf>)|None||
 | [0.98.1-Kern](<https://github.com/Geonovum/TPOD/blob/master/TPOD Omgevingsvisie/TPOD Omgevingsvisie v0.98.1-Kern.pdf>)|None||

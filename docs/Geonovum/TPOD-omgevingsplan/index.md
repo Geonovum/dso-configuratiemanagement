@@ -4,7 +4,7 @@ Toepassingsprofiel omgevingsplan
 
 ## TPOD omgevingsplan
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/TPOD%20Omgevingsplan](<https://github.com/Geonovum/TPOD/tree/master/TPOD%20Omgevingsplan>)|
 | organisatie  |Geonovum|
@@ -13,7 +13,7 @@ Toepassingsprofiel omgevingsplan
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.98-beta](<https://github.com/Geonovum/TPOD/blob/master/TPOD Omgevingsplan/TPOD Omgevingsplan v0.98-beta.pdf>)|None||
 | [0.98-kern](<https://github.com/Geonovum/TPOD/blob/master/TPOD Omgevingsplan/TPOD Omgevingsplan v0.98-kern.pdf>)|None||

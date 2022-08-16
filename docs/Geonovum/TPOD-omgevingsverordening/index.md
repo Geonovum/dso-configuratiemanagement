@@ -4,7 +4,7 @@ Toepassingsprofiel omgevingsverordening
 
 ## TPOD omgevingsverordening
 
-|value|waarde|
+|element|waarde|
 |-----|------|
 | download  | [](<>)|
 | organisatie  |Geonovum|
@@ -13,7 +13,7 @@ Toepassingsprofiel omgevingsverordening
 
 ## Releases
 
-|versienummer|releasedate|dependencies
+|Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
 | [0.98-beta](<https://github.com/Geonovum/TPOD/blob/master/TPOD Omgevingsverordening/TPOD Omgevingsverordening v0.98-beta.pdf>)|None||
 | [0.98-kern](<https://github.com/Geonovum/TPOD/blob/master/TPOD Omgevingsverordening/TPOD Omgevingsverordening v0.98-kern.pdf>)|None||
