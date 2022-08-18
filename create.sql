@@ -50,3 +50,17 @@ CREATE TABLE ReleaseDependencies
 	foreign key (dependsonitem) references Releases(id)
 );
 
+
+DROP TABLE if exists Organisaties;
+CREATE TABLE Organisaties
+(
+        id TEXT NOT NULL PRIMARY KEY,
+        baseuri TEXT NOT NULL,
+	website TEXT NOT NULL
+);
+
+insert into Organisaties(id,baseuri,website) values 
+	('Geonovum','https://geonovum.github.io/dso-configuratiemanagement/','https://www.geonovum.nl/'),
+	('KOOP','https://geonovum.github.io/dso-configuratiemanagement/','https://www.koopoverheid.nl/'),
+	('RWS','https://geonovum.github.io/dso-configuratiemanagement/','https://www.rijkswaterstaat.nl/')
+;

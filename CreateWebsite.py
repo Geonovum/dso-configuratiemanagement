@@ -24,14 +24,14 @@ indexfile = open("docs/index.md","wt")
 indexfile.write("# Beheeritems in dit repository\n")
 indexfile.write("Proof of concept van overzicht van beheeritems binnen het DSO.\n")
 indexfile.write("\n")
-indexfile.write ("|organisatie|naam|type|laatste release|\n")
-indexfile.write ("|-----------|----|----|------------|\n")
+indexfile.write ("|naam|organisatie|type|laatste release|\n")
+indexfile.write ("|----|-----------|----|------------|\n")
 
 #
 #  Make a separate page for each beheerItem.
 #
 beheeritemscursor = con.cursor()
-for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 and organisatie = "Geonovum" order by naam'):
+for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 order by naam'):
     ide,naam,omschrijving,organisatie,internx,releaselocatie,typex = row
 
 
@@ -95,7 +95,7 @@ for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie
     outfile.write('\n')
     outfile.close()
 
-    indexfile.write("|" + organisatie + "|[" + naam + "](" + ide + ")|" + typex + "|" + lastrelease  +"\n")
+    indexfile.write("|" + naam + "|[" + organisatie + "](" + ide + ")|" + typex + "|" + lastrelease  +"\n")
 
 indexfile.write('\n')
 indexfile.close
