@@ -31,7 +31,7 @@ indexfile.write ("|----|-----------|----|------------|\n")
 #  Make a separate page for each beheerItem.
 #
 beheeritemscursor = con.cursor()
-for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 order by naam'):
+for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 order by organisatie,naam'):
     ide,naam,omschrijving,organisatie,internx,releaselocatie,typex = row
 
 
@@ -57,16 +57,14 @@ for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie
     #
     outfile.write('# ' + naam + '\n')
     outfile.write("\n")
-    outfile.write(str(omschrijving) + '\n\n')
-
-    outfile.write('## ' + naam + '\n\n' )
 
     outfile.write('|element|waarde|\n')
     outfile.write('|-----|------|\n')
-    outfile.write('| download  | [' + str(releaselocatie) + '](<' + str(releaselocatie) + '>)|\n')
     outfile.write('| organisatie  |' + str(organisatie) + '|\n')
+    outfile.write('| download  | [' + str(releaselocatie) + '](<' + str(releaselocatie) + '>)|\n')
     outfile.write('| type  |' + str(typex) + '|\n')
     outfile.write('| id  |' + ide + '|\n')
+    outfile.write('| omschrijving  |' + str(omschrijving) + '|\n')
     if (len(dependencies) != 0):
         outfile.write('|afhankelijk van |' + ", ".join(dependencies) + '|\n')
 
@@ -95,7 +93,7 @@ for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie
     outfile.write('\n')
     outfile.close()
 
-    indexfile.write("|" + naam + "|[" + organisatie + "](" + ide + ")|" + typex + "|" + lastrelease  +"\n")
+    indexfile.write("|[" + naam + "](" + ide + ")|" + organisatie + "|" + typex + "|" + lastrelease  +"\n")
 
 indexfile.write('\n')
 indexfile.close
