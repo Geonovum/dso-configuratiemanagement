@@ -12,6 +12,10 @@ DependencyGraph.gdf: ConfiguratieItems.sqlite sqlite2gdf.sql
 docs/index.md: Makefile CreateWebsite.py ConfiguratieItems.sqlite
 	./CreateWebsite.py 
 
+DependencyGraph.svg: CreateDot.py Makefile
+	./CreateDot.py  > DependencyGraph.dot
+	cat DependencyGraph.dot | dot -Kpatchwork -Tsvg -Nfontcolor=red -Nshape=rect > DependencyGraph.svg
+
 create:
 	sqlite3 ConfiguratieItems.sqlite < create.sql
 	cat data/*sql | sqlite3 ConfiguratieItems.sqlite 
@@ -23,3 +27,4 @@ clean:
 	rm -f DependencyGraph.gdf
 	rm -f docs/index.md
 	rm -f docs/Geonovum/*/*md
+	rm -f DependencyGraph.svg

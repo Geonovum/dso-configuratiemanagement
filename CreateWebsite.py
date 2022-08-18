@@ -21,16 +21,17 @@ con = sqlite3.connect('ConfiguratieItems.sqlite')
 #
 indexfile = open("docs/index.md","wt")
 
-indexfile.write("# Beheeritems van Geonovum\n\n")
-indexfile.write("Proof of concept van overzicht van beheeritems van Geonovum\n\n")
-indexfile.write ("|naam|type|laatste release|\n")
-indexfile.write ("|----|----|------------|\n")
+indexfile.write("# Beheeritems in dit repository\n")
+indexfile.write("Proof of concept van overzicht van beheeritems binnen het DSO.\n")
+indexfile.write("\n")
+indexfile.write ("|organisatie|naam|type|laatste release|\n")
+indexfile.write ("|-----------|----|----|------------|\n")
 
 #
 #  Make a separate page for each beheerItem.
 #
-cur3 = con.cursor()
-for row in cur3.execute('SELECT id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 and organisatie = "Geonovum" order by naam'):
+beheeritemscursor = con.cursor()
+for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 and organisatie = "Geonovum" order by naam'):
     ide,naam,omschrijving,organisatie,internx,releaselocatie,typex = row
 
 
@@ -94,7 +95,7 @@ for row in cur3.execute('SELECT id, naam, omschrijving, organisatie, intern, rel
     outfile.write('\n')
     outfile.close()
 
-    indexfile.write("|[" + naam + "](" + ide + ")|" + typex + "|" + lastrelease  +"\n")
+    indexfile.write("|" + organisatie + "|[" + naam + "](" + ide + ")|" + typex + "|" + lastrelease  +"\n")
 
 indexfile.write('\n')
 indexfile.close
