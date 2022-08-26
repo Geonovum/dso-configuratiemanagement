@@ -14,8 +14,6 @@ import os
 #
 con = sqlite3.connect('ConfiguratieItems.sqlite')
 
-indexfile = open("docs/index.md","wt")
-
 #
 # Start dot file.
 #
@@ -39,37 +37,6 @@ for row in cur3.execute('SELECT id, naam, omschrijving, organisatie, intern, rel
         itemid,dependson = dep;
         print('"' + itemid + '" -> "' + dependson + '";')
         dependencies.append(dependson);
-    #
-    # Create folder for package and open file
-    #
-    outfolder = "docs/" + ide
-    if not os.path.exists(outfolder):
-        os.makedirs(outfolder)
-    sys.stderr.write("Writing to: " + outfolder + "\n")
-    outfile = open(outfolder + "/index.md","wt")
-
-    #
-    # Print ci info.
-    #
-    outfile.write('# ' + naam + '\n')
-    outfile.write("\n")
-    outfile.write(str(omschrijving) + '\n\n')
-
-    outfile.write('## ' + naam + '\n\n' )
-
-    outfile.write('|element|waarde|\n')
-    outfile.write('|-----|------|\n')
-    outfile.write('| download  | [' + str(releaselocatie) + '](<' + str(releaselocatie) + '>)|\n')
-    outfile.write('| organisatie  |' + str(organisatie) + '|\n')
-    outfile.write('| type  |' + str(typex) + '|\n')
-    outfile.write('| id  |' + ide + '|\n')
-    if (len(dependencies) != 0):
-        outfile.write('|afhankelijk van |' + ", ".join(dependencies) + '|\n')
-
-    outfile.write('\n')
-    outfile.write('## Releases\n\n')
-    outfile.write('|Versienummer|Datum release|Hangt af van\n')
-    outfile.write('|-------|-------|-----|\n')
 
     #
     # Find and print all releases of this ci.
@@ -89,8 +56,4 @@ for row in cur3.execute('SELECT id, naam, omschrijving, organisatie, intern, rel
 
         print('"' + rreleaseid + '" -> "' + ide + '";')
     print('}')
-    outfile.write('\n')
-    outfile.close()
-
-
 print('}')

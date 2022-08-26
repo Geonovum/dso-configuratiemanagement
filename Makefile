@@ -4,7 +4,7 @@ STYLEFILE=https://geonovum.github.io/dso-configuratiemanagement/style.css
 # A gdf file can be opened by a graph visualiation tool.
 # 
 
-all: DependencyGraph.gdf release.md docs/index.html docs/index.md
+all: DependencyGraph.gdf DependencyGraph.svg release.md docs/index.html docs/index.md ci.json
 
 DependencyGraph.gdf: ConfiguratieItems.sqlite sqlite2gdf.sql
 	sqlite3 ConfiguratieItems.sqlite < sqlite2gdf.sql > DependencyGraph.gdf
@@ -12,7 +12,10 @@ DependencyGraph.gdf: ConfiguratieItems.sqlite sqlite2gdf.sql
 docs/index.md: Makefile CreateWebsite.py ConfiguratieItems.sqlite
 	./CreateWebsite.py 
 
-DependencyGraph.svg: CreateDot.py Makefile
+ci.json: CreateJson.py Makefile
+	./CreateJson.py  > ci.json
+
+DependencyGraph.dot: CreateDot.py Makefile
 	./CreateDot.py  > DependencyGraph.dot
 	cat DependencyGraph.dot | dot -Kpatchwork -Tsvg -Nfontcolor=red -Nshape=rect > DependencyGraph.svg
 
@@ -28,3 +31,4 @@ clean:
 	rm -f docs/index.md
 	rm -f docs/Geonovum/*/*md
 	rm -f DependencyGraph.svg
+	rm -rf ci.json
