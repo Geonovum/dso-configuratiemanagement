@@ -17,7 +17,7 @@ ci.json: CreateJson.py Makefile
 
 DependencyGraph.dot: CreateDot.py Makefile
 	./CreateDot.py  > DependencyGraph.dot
-	cat DependencyGraph.dot | dot -Kpatchwork -Tsvg -Nfontcolor=red -Nshape=rect > DependencyGraph.svg
+	cat DependencyGraph.dot | dot -Kdot -Tsvg -Nfontcolor=red -Nshape=rect > DependencyGraph.svg
 
 create:
 	sqlite3 ConfiguratieItems.sqlite < create.sql
