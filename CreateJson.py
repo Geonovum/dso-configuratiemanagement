@@ -46,7 +46,6 @@ for row in cur3.execute('SELECT id, naam, omschrijving, organisatie, intern, rel
     cur = con.cursor()
     for dep in cur.execute('SELECT itemid,dependsonitem FROM BeheeritemDependencies where itemid = "' + ide + '"'):
         itemid,dependson = dep;
-        #print('"' + itemid + '" -> "' + dependson + '";')
         dependencies.append(dependson);
     #
     # Print ci info.
@@ -56,9 +55,9 @@ for row in cur3.execute('SELECT id, naam, omschrijving, organisatie, intern, rel
     print('        "organisatie": ' + json.dumps(organisatie) + ',')
     print('        "type": ' + json.dumps(typex) + ',')
     print('        "omschrijving": ' + json.dumps(omschrijving) + ',')
+    if (len(dependencies) != 0):
+        print('        "dependencies": ' + json.dumps(dependencies) + ',')
     print('        "id": ' + json.dumps(ide))
-    #if (len(dependencies) != 0):
-        #outfile.write('|afhankelijk van |' + ", ".join(dependencies) + '|\n')
 
     print('    }')
 print(']}')
