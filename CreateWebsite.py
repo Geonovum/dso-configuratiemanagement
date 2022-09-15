@@ -24,7 +24,7 @@ indexfile = open("docs/index.md","wt")
 indexfile.write("# Beheeritems in dit repository\n")
 indexfile.write("Proof of concept van overzicht van beheeritems binnen het DSO.\n")
 indexfile.write("\n")
-indexfile.write ("|naam|organisatie|type|laatste release|\n")
+indexfile.write ("|Naam|Organisatie|type|laatste release|\n")
 indexfile.write ("|----|-----------|----|------------|\n")
 
 #
