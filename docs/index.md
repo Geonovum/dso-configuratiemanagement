@@ -4,7 +4,7 @@ title: Geonovum beheeritems
 # Beheeritems in dit repository
 Proof of concept van overzicht van beheeritems binnen het DSO.
 
-|Naam|Organisatie|type|laatste release|
+|Naam|Organisatie|Type|Laatste release|
 |----|-----------|----|------------|
 |[CIMOW](ci/Geonovum/CIMOW)|Geonovum|Standaard|2.1.0-rc
 |[IMOW model](ci/Geonovum/IMOW)|Geonovum|Standaard|2.0.1-rc
