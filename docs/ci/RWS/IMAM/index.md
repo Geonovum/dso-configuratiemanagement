@@ -1,6 +1,7 @@
 ---
 title: IMAM
 ---
+
 # IMAM
 
 |element|waarde|
@@ -8,7 +9,7 @@ title: IMAM
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
-| id  |ci/RWS/IMAM|
+| id  |IMAM|
 | omschrijving  ||
 
 ## Releases

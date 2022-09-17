@@ -24,11 +24,12 @@ indexfile = open("docs/index.md","wt")
 #
 # Write YAML
 #
+indexfile.write("# Beheeritems in dit repository\n")
+indexfile.write("\n")
 indexfile.write("---\n")
 indexfile.write("title: Geonovum beheeritems\n")
 indexfile.write("---\n")
 
-indexfile.write("# Beheeritems in dit repository\n")
 indexfile.write("Proof of concept van overzicht van beheeritems binnen het DSO.\n")
 indexfile.write("\n")
 indexfile.write ("|Naam|Organisatie|type|laatste release|\n")
@@ -53,7 +54,7 @@ for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie
     #
     # Create folder for package and open file
     #
-    outfolder = "docs/" + ide
+    outfolder = "docs/ci/" + organisatie + '/' + ide
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
     sys.stderr.write("Writing to: " + outfolder + "\n")
@@ -65,6 +66,7 @@ for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie
     outfile.write("---\n")
     outfile.write("title: " + naam + "\n")
     outfile.write("---\n")
+    outfile.write("\n")
     outfile.write('# ' + naam + '\n')
     outfile.write("\n")
 

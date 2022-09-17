@@ -1,6 +1,7 @@
 ---
 title: STTR
 ---
+
 # STTR
 
 |element|waarde|
@@ -8,7 +9,7 @@ title: STTR
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
-| id  |ci/RWS/STTR|
+| id  |STTR|
 | omschrijving  ||
 
 ## Releases

@@ -1,6 +1,7 @@
 ---
 title: STOP standaard
 ---
+
 # STOP standaard
 
 |element|waarde|
@@ -8,7 +9,7 @@ title: STOP standaard
 | organisatie  |KOOP|
 | download  | [](<>)|
 | type  |Standaard|
-| id  |ci/KOOP/STOP|
+| id  |STOP|
 | omschrijving  ||
 
 ## Releases

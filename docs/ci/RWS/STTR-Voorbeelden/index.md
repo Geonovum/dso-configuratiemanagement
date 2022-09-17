@@ -1,6 +1,7 @@
 ---
 title: Voorbeeldbestanden-STTR
 ---
+
 # Voorbeeldbestanden-STTR
 
 |element|waarde|
@@ -8,9 +9,8 @@ title: Voorbeeldbestanden-STTR
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
-| id  |ci/RWS/STTR-Voorbeelden|
+| id  |STTR-Voorbeelden|
 | omschrijving  ||
-|afhankelijk van |ci/RWS/IMTR-XSD|
 
 ## Releases
 

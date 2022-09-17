@@ -1,6 +1,7 @@
 ---
 title: IMTR
 ---
+
 # IMTR
 
 |element|waarde|
@@ -8,7 +9,7 @@ title: IMTR
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
-| id  |ci/RWS/IMTR|
+| id  |IMTR|
 | omschrijving  ||
 
 ## Releases

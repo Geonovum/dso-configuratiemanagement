@@ -1,6 +1,7 @@
 ---
 title: XSD-STAM
 ---
+
 # XSD-STAM
 
 |element|waarde|
@@ -8,9 +9,8 @@ title: XSD-STAM
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
-| id  |ci/RWS/STTR-XSD|
+| id  |STTR-XSD|
 | omschrijving  ||
-|afhankelijk van |ci/RWS/STAM|
 
 ## Releases
 

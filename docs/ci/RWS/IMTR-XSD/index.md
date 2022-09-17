@@ -1,6 +1,7 @@
 ---
 title: XSD-IMTR
 ---
+
 # XSD-IMTR
 
 |element|waarde|
@@ -8,9 +9,8 @@ title: XSD-IMTR
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
-| id  |ci/RWS/IMTR-XSD|
+| id  |IMTR-XSD|
 | omschrijving  ||
-|afhankelijk van |ci/RWS/STTR|
 
 ## Releases
 

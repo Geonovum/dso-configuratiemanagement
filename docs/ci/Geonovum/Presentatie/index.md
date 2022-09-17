@@ -1,6 +1,7 @@
 ---
 title: Presentatiemodel TPOD
 ---
+
 # Presentatiemodel TPOD
 
 |element|waarde|
@@ -8,7 +9,7 @@ title: Presentatiemodel TPOD
 | organisatie  |Geonovum|
 | download  | [https://github.com/Geonovum/TPOD/tree/master/Presentatiemodel](<https://github.com/Geonovum/TPOD/tree/master/Presentatiemodel>)|
 | type  |Standaard|
-| id  |ci/Geonovum/Presentatie|
+| id  |Presentatie|
 | omschrijving  ||
 
 ## Releases

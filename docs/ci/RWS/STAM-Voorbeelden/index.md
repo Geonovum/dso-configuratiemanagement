@@ -1,6 +1,7 @@
 ---
 title: Voorbeeldbestanden-STAM
 ---
+
 # Voorbeeldbestanden-STAM
 
 |element|waarde|
@@ -8,9 +9,8 @@ title: Voorbeeldbestanden-STAM
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
-| id  |ci/RWS/STAM-Voorbeelden|
+| id  |STAM-Voorbeelden|
 | omschrijving  ||
-|afhankelijk van |ci/RWS/STTR-XSD|
 
 ## Releases
 

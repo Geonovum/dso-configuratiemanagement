@@ -1,5 +1,5 @@
-DROP TABLE if exists Beheeritems;
-CREATE TABLE Beheeritems 
+DROP TABLE if exists BeheerItemsBase;
+CREATE TABLE BeheerItemsBase 
 ( 
         id TEXT NOT NULL, 
         naam TEXT, 
@@ -8,18 +8,38 @@ CREATE TABLE Beheeritems
         intern INTEGER NOT NULL DEFAULT 0, 
         releaselocatie TEXT,
         type TEXT,
-        PRIMARY KEY("id")
+        PRIMARY KEY(organisatie,id)
 );
 
-DROP TABLE if exists BeheeritemDependencies;
-CREATE TABLE BeheeritemDependencies
+DROP VIEW if exists BeheerItems;
+CREATE VIEW BeheerItems
+AS
+   SELECT baseuri || 'ci/' || BeheerItemsBase.organisatie || '/' || BeheerItemsBase.id as uri, *
+   FROM BeheerItemsBase,Organisaties
+   WHERE BeheerItemsBase.organisatie = Organisaties.id;
+
+DROP TABLE if exists BeheerItemDependenciesBase;
+CREATE TABLE BeheerItemDependenciesBase
 (
+        itemorganisatie TEXT NOT NULL,
         itemid TEXT NOT NULL,
-        dependsonitem TEXT NOT NULL,
-	primary key(itemid,dependsonitem),
-	foreign key (dependsonitem) REFERENCES Beheeritems(id),
-	foreign key (itemid) REFERENCES Beheeritems(id)
+        dependsonorganisatie TEXT NOT NULL,
+        dependsonid TEXT NOT NULL,
+	primary key(itemorganisatie,itemid,dependsonorganisatie,dependsonid),
+	foreign key (dependsonorganisatie,dependsonid) REFERENCES BeheerItems(organisatie,id),
+	foreign key (itemorganisatie,itemid) REFERENCES BeheerItems(organisatie,id)
 );
+
+drop view if exists BeheerItemDependencies;
+create view BeheerItemDependencies
+as
+   select 
+      itemo.baseuri || 'ci/' || itemo.id || '/' || base.itemid as itemid,
+      dependo.baseuri || 'ci/' || dependo.id || '/' || base.dependsonid as dependsonitem
+   from
+      BeheerItemDependenciesBase as base, Organisaties as itemo, Organisaties as dependo
+   where
+      base.itemorganisatie = itemo.id and base.dependsonorganisatie = dependo.id;
 
 DROP TABLE if exists ReleasesBase;
 CREATE TABLE ReleasesBase
@@ -31,7 +51,7 @@ CREATE TABLE ReleasesBase
 		releasedatum DATE,
 		status TEXT,
 		primary key (itemid,versienummer),
-		foreign key (itemid) references Beheeritems(id)
+		foreign key (itemid) references BeheerItems(id)
 
 );
 
@@ -56,11 +76,12 @@ CREATE TABLE Organisaties
 (
         id TEXT NOT NULL PRIMARY KEY,
         baseuri TEXT NOT NULL,
-	website TEXT NOT NULL
+	website TEXT NOT NULL,
+	intern INTEGER NOT NULL
 );
 
-insert into Organisaties(id,baseuri,website) values 
-	('Geonovum','https://geonovum.github.io/dso-configuratiemanagement/','https://www.geonovum.nl/'),
-	('KOOP','https://geonovum.github.io/dso-configuratiemanagement/','https://www.koopoverheid.nl/'),
-	('RWS','https://geonovum.github.io/dso-configuratiemanagement/','https://www.rijkswaterstaat.nl/')
+insert into Organisaties(id,baseuri,website,intern) values 
+	('Geonovum','https://geonovum.github.io/dso-configuratiemanagement/','https://www.geonovum.nl/',true),
+	('KOOP','https://geonovum.github.io/dso-configuratiemanagement/','https://www.koopoverheid.nl/',false),
+	('RWS','https://geonovum.github.io/dso-configuratiemanagement/','https://www.rijkswaterstaat.nl/',false)
 ;
