@@ -12,8 +12,3 @@ title: IMTR
 | id  |IMTR|
 | omschrijving  ||
 
-## Releases
-
-|Versienummer|Datum release|Hangt af van
-|-------|-------|-----|
-

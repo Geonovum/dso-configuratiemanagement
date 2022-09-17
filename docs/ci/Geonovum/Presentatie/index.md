@@ -12,8 +12,3 @@ title: Presentatiemodel TPOD
 | id  |Presentatie|
 | omschrijving  ||
 
-## Releases
-
-|Versienummer|Datum release|Hangt af van
-|-------|-------|-----|
-

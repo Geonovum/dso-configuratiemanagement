@@ -12,8 +12,3 @@ title: STTR
 | id  |STTR|
 | omschrijving  ||
 
-## Releases
-
-|Versienummer|Datum release|Hangt af van
-|-------|-------|-----|
-

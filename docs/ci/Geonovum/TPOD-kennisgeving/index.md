@@ -17,4 +17,6 @@ buitenplanse omgevingsplanactiviteit.|
 
 |Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
+| [0.99.0](<https://github.com/Geonovum/TPOD/blob/master/TPOD Kennisgeving omgevingsvergunning buitenplanse omgevingsplanactiviteit/TPOD Kennisgeving omgevingsvergunning buitenplanse omgevingsplanactiviteit v0.99.0.pdf>)|None||
+| [1.0.0](<https://github.com/Geonovum/TPOD/blob/master/TPOD Kennisgeving omgevingsvergunning buitenplanse omgevingsplanactiviteit/TPOD Kennisgeving omgevingsvergunning buitenplanse omgevingsplanactiviteit v1.0.0.pdf>)|None||
 

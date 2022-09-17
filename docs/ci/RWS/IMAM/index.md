@@ -12,8 +12,3 @@ title: IMAM
 | id  |IMAM|
 | omschrijving  ||
 
-## Releases
-
-|Versienummer|Datum release|Hangt af van
-|-------|-------|-----|
-

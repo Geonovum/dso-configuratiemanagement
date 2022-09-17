@@ -39,16 +39,17 @@ indexfile.write ("|----|-----------|----|------------|\n")
 #  Make a separate page for each beheerItem.
 #
 beheeritemscursor = con.cursor()
-for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 order by organisatie,naam'):
-    ide,naam,omschrijving,organisatie,internx,releaselocatie,typex = row
+for row in beheeritemscursor.execute('SELECT uri,id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 order by organisatie,naam'):
+    uri,ide,naam,omschrijving,organisatie,internx,releaselocatie,typex = row
 
 
+    sys.stderr.write("Processing: " + uri + "\n")
     #
     # Query DBMS and find dependent package.
     #
     dependencies = [];
     cur = con.cursor()
-    for dep in cur.execute('SELECT itemid,dependsonitem FROM BeheeritemDependencies where itemid = "' + ide + '"'):
+    for dep in cur.execute('SELECT itemid,dependsonitem FROM BeheeritemDependencies where itemid = "' + uri + '"'):
         itemid,dependson = dep;
         dependencies.append(dependson);
     #
@@ -80,19 +81,21 @@ for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie
     if (len(dependencies) != 0):
         outfile.write('|afhankelijk van |' + ", ".join(dependencies) + '|\n')
 
-    outfile.write('\n')
-    outfile.write('## Releases\n\n')
-    outfile.write('|Versienummer|Datum release|Hangt af van\n')
-    outfile.write('|-------|-------|-----|\n')
 
     #
     # Find and print all releases of this ci.
     #
     lastrelease = '';
     rcur = con.cursor()
-    for release in rcur.execute('SELECT id,itemid,versienummer,label,downloaduri,releasedatum FROM Releases where itemid = "' + ide + '" order by releasedatum,versienummer'):
-        rident,ritemid,rversienummer,rlabel,rdownloaduri,rreleasedatum = release
+    for release in rcur.execute('SELECT itemid,versienummer,label,downloaduri,releasedatum FROM Releases where itemid = "' + uri + '" order by releasedatum,versienummer'):
+        ritemid,rversienummer,rlabel,rdownloaduri,rreleasedatum = release
         rreleaseid = ritemid + '/' + rversienummer
+        
+        if lastrelease == '':
+            outfile.write('\n')
+            outfile.write('## Releases\n\n')
+            outfile.write('|Versienummer|Datum release|Hangt af van\n')
+            outfile.write('|-------|-------|-----|\n')
 
         rddependencies = [];
         curdep = con.cursor()
@@ -105,7 +108,7 @@ for row in beheeritemscursor.execute('SELECT id, naam, omschrijving, organisatie
     outfile.write('\n')
     outfile.close()
 
-    indexfile.write("|[" + naam + "](" + ide + ")|" + organisatie + "|" + typex + "|" + lastrelease  +"\n")
+    indexfile.write("|[" + naam + "](" + uri + ")|" + organisatie + "|" + typex + "|" + lastrelease  +"\n")
 
 indexfile.write('\n')
 indexfile.close

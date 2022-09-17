@@ -12,8 +12,3 @@ title: STOP standaard
 | id  |STOP|
 | omschrijving  ||
 
-## Releases
-
-|Versienummer|Datum release|Hangt af van
-|-------|-------|-----|
-

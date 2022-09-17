@@ -11,9 +11,5 @@ title: Voorbeeldbestanden-STAM
 | type  |Standaard|
 | id  |STAM-Voorbeelden|
 | omschrijving  ||
-
-## Releases
-
-|Versienummer|Datum release|Hangt af van
-|-------|-------|-----|
+|afhankelijk van |https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-XSD|
 

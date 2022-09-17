@@ -41,8 +41,8 @@ as
    where
       base.itemorganisatie = itemo.id and base.dependsonorganisatie = dependo.id;
 
-DROP TABLE if exists ReleasesBase;
-CREATE TABLE ReleasesBase
+DROP TABLE if exists Releases;
+CREATE TABLE Releases
 (
 		itemid TEXT not NULL,
 		label TEXT,
@@ -51,15 +51,10 @@ CREATE TABLE ReleasesBase
 		releasedatum DATE,
 		status TEXT,
 		primary key (itemid,versienummer),
-		foreign key (itemid) references BeheerItems(id)
+		foreign key (itemid) references BeheerItems(uri)
 
 );
 
-DROP VIEW if exists Releases;
-CREATE VIEW Releases
-AS
-   SELECT itemid || '/' || versienummer as id,* 
-   FROM ReleasesBase;
 
 DROP TABLE if exists ReleaseDependencies;
 CREATE TABLE ReleaseDependencies
