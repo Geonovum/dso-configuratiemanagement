@@ -32,7 +32,7 @@ indexfile.write("---\n")
 
 indexfile.write("Proof of concept van overzicht van beheeritems binnen het DSO.\n")
 indexfile.write("\n")
-indexfile.write ("|Naam|Organisatie|type|laatste release|\n")
+indexfile.write ("|Naam|Organisatie|Type|Laatste release|\n")
 indexfile.write ("|----|-----------|----|------------|\n")
 
 #

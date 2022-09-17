@@ -5,7 +5,7 @@ title: Geonovum beheeritems
 ---
 Proof of concept van overzicht van beheeritems binnen het DSO.
 
-|Naam|Organisatie|type|laatste release|
+|Naam|Organisatie|Type|Laatste release|
 |----|-----------|----|------------|
 |[CIMOW](CIMOW)|Geonovum|Standaard|
 |[IMOW model](IMOW)|Geonovum|Standaard|
