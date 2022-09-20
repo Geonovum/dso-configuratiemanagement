@@ -1,6 +1,7 @@
 ---
 title: Geonovum beheeritems
 ---
+
 # Beheeritems in dit repository
 
 Proof of concept van overzicht van beheeritems binnen het DSO.
