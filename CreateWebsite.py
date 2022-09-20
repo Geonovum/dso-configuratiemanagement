@@ -25,8 +25,7 @@ indexfile = open("docs/index.md","wt")
 # Write YAML
 #
 indexfile.write("---\n")
-indexfile.write("title: Geonovum beheeritems\n")
-indexfile.write("page.title: Geonovum beheeritemssss\n")
+indexfile.write("title: null\n")
 indexfile.write("---\n")
 
 #
@@ -76,8 +75,8 @@ for row in beheeritemscursor.execute('SELECT uri,id, naam, omschrijving, organis
     outfile.write("title: " + naam + "\n")
     outfile.write("---\n")
     outfile.write("\n")
-    #outfile.write('# ' + naam + '\n')
-    #outfile.write("\n")
+    outfile.write('# ' + naam + '\n')
+    outfile.write("\n")
 
     outfile.write('|element|waarde|\n')
     outfile.write('|-----|------|\n')

@@ -1,6 +1,5 @@
 ---
-title: Geonovum beheeritems
-page.title: Geonovum beheeritemssss
+title: null
 ---
 Proof of concept van overzicht van beheeritems binnen het DSO.
 

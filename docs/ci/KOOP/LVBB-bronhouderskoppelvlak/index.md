@@ -2,6 +2,8 @@
 title: LVBB bronhouderskoppelvlak
 ---
 
+# LVBB bronhouderskoppelvlak
+
 |element|waarde|
 |-----|------|
 | organisatie  |KOOP|

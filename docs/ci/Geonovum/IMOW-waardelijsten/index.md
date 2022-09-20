@@ -2,6 +2,8 @@
 title: Waardelijsten IMOW
 ---
 
+# Waardelijsten IMOW
+
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

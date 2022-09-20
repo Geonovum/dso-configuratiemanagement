@@ -2,6 +2,8 @@
 title: STOP standaard
 ---
 
+# STOP standaard
+
 |element|waarde|
 |-----|------|
 | organisatie  |KOOP|
