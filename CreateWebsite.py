@@ -24,12 +24,19 @@ indexfile = open("docs/index.md","wt")
 #
 # Write YAML
 #
-indexfile.write("# Beheeritems in dit repository\n")
-indexfile.write("\n")
 indexfile.write("---\n")
 indexfile.write("title: Geonovum beheeritems\n")
 indexfile.write("---\n")
 
+#
+# Document titel
+#
+indexfile.write("# Beheeritems in dit repository\n")
+indexfile.write("\n")
+
+#
+# Document inhoud
+#
 indexfile.write("Proof of concept van overzicht van beheeritems binnen het DSO.\n")
 indexfile.write("\n")
 indexfile.write ("|Naam|Organisatie|Type|Laatste release|\n")

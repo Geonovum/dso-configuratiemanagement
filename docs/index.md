@@ -1,8 +1,8 @@
-# Beheeritems in dit repository
-
 ---
 title: Geonovum beheeritems
 ---
+# Beheeritems in dit repository
+
 Proof of concept van overzicht van beheeritems binnen het DSO.
 
 |Naam|Organisatie|Type|Laatste release|
