@@ -1,6 +1,6 @@
 ---
 title: Geonovum beheeritems
-layout : no-title-post
+layout : page
 ---
 # Beheeritems in dit repository
 
