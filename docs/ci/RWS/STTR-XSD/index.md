@@ -2,8 +2,6 @@
 title: XSD-STAM
 ---
 
-# XSD-STAM
-
 |element|waarde|
 |-----|------|
 | organisatie  |RWS|

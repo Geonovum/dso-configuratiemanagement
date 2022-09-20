@@ -2,8 +2,6 @@
 title: STTR
 ---
 
-# STTR
-
 |element|waarde|
 |-----|------|
 | organisatie  |RWS|

@@ -2,8 +2,6 @@
 title: Presentatiemodel TPOD
 ---
 
-# Presentatiemodel TPOD
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

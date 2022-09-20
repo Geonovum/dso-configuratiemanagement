@@ -2,8 +2,6 @@
 title: TPOD instructie
 ---
 
-# TPOD instructie
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

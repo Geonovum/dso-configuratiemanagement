@@ -2,8 +2,6 @@
 title: IMOW model
 ---
 
-# IMOW model
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

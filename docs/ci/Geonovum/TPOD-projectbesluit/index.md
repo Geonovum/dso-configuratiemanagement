@@ -2,8 +2,6 @@
 title: TPOD projectbesluit
 ---
 
-# TPOD projectbesluit
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

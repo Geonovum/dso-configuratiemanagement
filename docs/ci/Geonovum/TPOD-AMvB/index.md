@@ -2,8 +2,6 @@
 title: TPOD AMvB en MR
 ---
 
-# TPOD AMvB en MR
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

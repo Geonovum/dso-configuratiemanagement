@@ -2,8 +2,6 @@
 title: CIMOW
 ---
 
-# CIMOW
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

@@ -2,8 +2,6 @@
 title: TPOD Natura 2000-besluit
 ---
 
-# TPOD Natura 2000-besluit
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

@@ -2,8 +2,6 @@
 title: XSD IMOW
 ---
 
-# XSD IMOW
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

@@ -2,8 +2,6 @@
 title: TPOD validatieregels
 ---
 
-# TPOD validatieregels
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

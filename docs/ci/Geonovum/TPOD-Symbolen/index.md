@@ -2,8 +2,6 @@
 title: Symbolenbibliotheek STOP-TPOD
 ---
 
-# Symbolenbibliotheek STOP-TPOD
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|

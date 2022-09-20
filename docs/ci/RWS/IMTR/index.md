@@ -2,8 +2,6 @@
 title: IMTR
 ---
 
-# IMTR
-
 |element|waarde|
 |-----|------|
 | organisatie  |RWS|

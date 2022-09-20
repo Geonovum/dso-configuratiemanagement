@@ -2,8 +2,6 @@
 title: STAM
 ---
 
-# STAM
-
 |element|waarde|
 |-----|------|
 | organisatie  |RWS|

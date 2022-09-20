@@ -2,8 +2,6 @@
 title: TPOD standaard
 ---
 
-# TPOD standaard
-
 |element|waarde|
 |-----|------|
 | organisatie  |Geonovum|
