@@ -1,9 +1,6 @@
 ---
-title: null
+title: Configuratieitems
 ---
-
-# Beheeritems
-
 Proof of concept van overzicht van beheeritems binnen het DSO.
 
 |Naam|Organisatie|Type|Laatste release|

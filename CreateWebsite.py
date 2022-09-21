@@ -25,7 +25,7 @@ indexfile = open("docs/index.md","wt")
 # Write YAML
 #
 indexfile.write("---\n")
-indexfile.write("title: null\n")
+indexfile.write("title: Configuratieitems\n")
 indexfile.write("---\n")
 
 #
