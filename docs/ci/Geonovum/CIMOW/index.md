@@ -11,7 +11,7 @@ title: CIMOW
 | type  |Standaard|
 | id  |CIMOW|
 | omschrijving  |Conceptueel Informatiemodel Omgevingswet|
-|afhankelijk van |https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-UML|
+|afhankelijk van |[https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-UML](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-UML)|
 
 ## Releases
 

@@ -58,7 +58,7 @@ for row in beheeritemscursor.execute('SELECT uri,id, naam, omschrijving, organis
     cur = con.cursor()
     for dep in cur.execute('SELECT itemid,dependsonitem FROM BeheeritemDependencies where itemid = "' + uri + '"'):
         itemid,dependson = dep;
-        dependencies.append(dependson);
+        dependencies.append("[" + dependson + "](" + dependson + ")");
     #
     # Create folder for package and open file
     #

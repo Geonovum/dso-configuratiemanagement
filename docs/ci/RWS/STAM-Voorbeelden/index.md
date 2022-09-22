@@ -11,5 +11,5 @@ title: Voorbeeldbestanden-STAM
 | type  |Standaard|
 | id  |STAM-Voorbeelden|
 | omschrijving  ||
-|afhankelijk van |https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-XSD|
+|afhankelijk van |[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-XSD](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-XSD)|
 

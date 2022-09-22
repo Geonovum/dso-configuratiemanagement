@@ -11,5 +11,5 @@ title: LVBB bronhouderskoppelvlak
 | type  |Standaard|
 | id  |LVBB-bronhouderskoppelvlak|
 | omschrijving  ||
-|afhankelijk van |https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD|
+|afhankelijk van |[https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD)|
 

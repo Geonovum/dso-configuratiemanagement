@@ -11,7 +11,7 @@ title: Waardelijsten IMOW
 | type  |Standaard|
 | id  |IMOW-waardelijsten|
 | omschrijving  |Waardelijsten IMOW zoals gepubliceerd in de stelselcatalogus|
-|afhankelijk van |https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-Symbolen|
+|afhankelijk van |[https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-Symbolen](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-Symbolen)|
 
 ## Releases
 

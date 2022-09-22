@@ -11,5 +11,5 @@ title: XSD-IMTR
 | type  |Standaard|
 | id  |IMTR-XSD|
 | omschrijving  ||
-|afhankelijk van |https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR|
+|afhankelijk van |[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|
 
