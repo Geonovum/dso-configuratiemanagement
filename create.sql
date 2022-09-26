@@ -52,9 +52,7 @@ CREATE TABLE Releases
 		status TEXT,
 		primary key (itemid,versienummer),
 		foreign key (itemid) references BeheerItems(uri)
-
 );
-
 
 DROP TABLE if exists ReleaseDependencies;
 CREATE TABLE ReleaseDependencies
@@ -69,13 +67,13 @@ CREATE TABLE ReleaseDependencies
 DROP TABLE if exists Organisaties;
 CREATE TABLE Organisaties
 (
-        id TEXT NOT NULL PRIMARY KEY,
-        baseuri TEXT NOT NULL,
-	website TEXT NOT NULL,
-	intern INTEGER NOT NULL
+        id TEXT NOT NULL PRIMARY KEY,	-- Identificatie van de organisatie.
+        baseuri TEXT NOT NULL,		-- Prefix die gebruikt wordt om CI's van deze organisatie te identificeren.
+	website TEXT NOT NULL,		-- Verwijzing naar website van organisatie.
+	local INTEGER NOT NULL		-- True: CI's van deze organisatie worden lokaal gepubliceerd anders False
 );
 
-insert into Organisaties(id,baseuri,website,intern) values 
+insert into Organisaties(id,baseuri,website,local) values 
 	('Geonovum','https://geonovum.github.io/dso-configuratiemanagement/','https://www.geonovum.nl/',true),
 	('KOOP','https://geonovum.github.io/dso-configuratiemanagement/','https://www.koopoverheid.nl/',false),
 	('RWS','https://geonovum.github.io/dso-configuratiemanagement/','https://www.rijkswaterstaat.nl/',false)

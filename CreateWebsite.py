@@ -46,7 +46,7 @@ indexfile.write ("|----|-----------|----|------------|\n")
 #  Make a separate page for each beheerItem.
 #
 beheeritemscursor = con.cursor()
-for row in beheeritemscursor.execute('SELECT uri,id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 order by organisatie,naam'):
+for row in beheeritemscursor.execute('SELECT uri,id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 and local == 1 order by organisatie,naam'):
     uri,ide,naam,omschrijving,organisatie,internx,releaselocatie,typex = row
 
 

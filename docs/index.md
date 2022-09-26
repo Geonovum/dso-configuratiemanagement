@@ -25,14 +25,4 @@ Proof of concept van overzicht van beheeritems binnen het DSO.
 |[TPOD waterschapsverordening](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-waterschapsverordening)|Geonovum|Standaard|2.0.1-rc
 |[Waardelijsten IMOW](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/IMOW-waardelijsten)|Geonovum|Standaard|3.0.0
 |[XSD IMOW](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/IMOW-XSD)|Geonovum|Standaard|2.0.0-rc
-|[LVBB bronhouderskoppelvlak](https://geonovum.github.io/dso-configuratiemanagement/ci/KOOP/LVBB-bronhouderskoppelvlak)|KOOP|Standaard|
-|[STOP standaard](https://geonovum.github.io/dso-configuratiemanagement/ci/KOOP/STOP)|KOOP|Standaard|
-|[IMAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM)|RWS|Standaard|
-|[IMTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR)|RWS|Standaard|
-|[STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM)|RWS|Standaard|
-|[STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|RWS|Standaard|
-|[Voorbeeldbestanden-STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-Voorbeelden)|RWS|Standaard|
-|[Voorbeeldbestanden-STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-Voorbeelden)|RWS|Standaard|
-|[XSD-IMTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-XSD)|RWS|Standaard|
-|[XSD-STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-XSD)|RWS|Standaard|
 
