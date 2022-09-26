@@ -75,6 +75,6 @@ CREATE TABLE Organisaties
 
 insert into Organisaties(id,baseuri,website,local) values 
 	('Geonovum','https://geonovum.github.io/dso-configuratiemanagement/','https://www.geonovum.nl/',true),
-	('KOOP','https://geonovum.github.io/dso-configuratiemanagement/','https://www.koopoverheid.nl/',false),
+	('KOOP','https://geonovum.github.io/dso-configuratiemanagement-koop/','https://www.koopoverheid.nl/',false),
 	('RWS','https://geonovum.github.io/dso-configuratiemanagement-rws/','https://www.rijkswaterstaat.nl/',false)
 ;
