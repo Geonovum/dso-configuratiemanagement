@@ -27,6 +27,13 @@ DependencyGraph.dot: CreateDot.py Makefile
 	./CreateDot.py  > DependencyGraph.dot
 	cat DependencyGraph.dot | dot -Kdot -Tsvg -Nfontcolor=red -Nshape=rect > DependencyGraph.svg
 
+
+
+config-rws:
+	sqlite3 ConfiguratieItems.sqlite < RunRWS.sql
+config-geonovum:
+	sqlite3 ConfiguratieItems.sqlite < RunGeonovum.sql
+
 #
 # Create initial state from sql dumps.
 #
