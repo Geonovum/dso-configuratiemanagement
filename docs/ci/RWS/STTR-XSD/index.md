@@ -11,5 +11,5 @@ title: XSD-STAM
 | type  |Standaard|
 | id  |STTR-XSD|
 | omschrijving  ||
-|afhankelijk van |[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM)|
+| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM)|
 

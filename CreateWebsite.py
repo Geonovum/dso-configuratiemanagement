@@ -86,7 +86,7 @@ for row in beheeritemscursor.execute('SELECT uri,id, naam, omschrijving, organis
     outfile.write('| id  |' + ide + '|\n')
     outfile.write('| omschrijving  |' + str(omschrijving) + '|\n')
     if (len(dependencies) != 0):
-        outfile.write('|afhankelijk van |' + ", ".join(dependencies) + '|\n')
+        outfile.write('| Gebruikt|' + ", ".join(dependencies) + '|\n')
 
 
     #

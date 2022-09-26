@@ -11,5 +11,5 @@ title: Voorbeeldbestanden-STTR
 | type  |Standaard|
 | id  |STTR-Voorbeelden|
 | omschrijving  ||
-|afhankelijk van |[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-XSD](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-XSD)|
+| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-XSD](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-XSD)|
 
