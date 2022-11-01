@@ -11,7 +11,7 @@ title: IMOW model
 | type  |Standaard|
 | id  |IMOW|
 | omschrijving  |Informatiemodel Omgevingswet|
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-UML](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-UML)|
+| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/CIMOW](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/CIMOW)|
 
 ## Releases
 

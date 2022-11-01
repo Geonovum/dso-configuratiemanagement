@@ -12,6 +12,7 @@ title: TPOD kennisgeving omgevingsvergunning voor buitenplanse omgevingsplanacti
 | id  |TPOD-kennisgeving|
 | omschrijving  |Toepassingsprofiel kennisgeving omgevingsvergunning voor
 buitenplanse omgevingsplanactiviteit.|
+| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/IMOW](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/IMOW)|
 
 ## Releases
 

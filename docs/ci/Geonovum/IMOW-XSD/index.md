@@ -11,7 +11,6 @@ title: XSD IMOW
 | type  |Standaard|
 | id  |IMOW-XSD|
 | omschrijving  |XML-Applicatieschema voor gegevensuitwisselling conform de IMOW standaard|
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-UML](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-UML)|
 
 ## Releases
 

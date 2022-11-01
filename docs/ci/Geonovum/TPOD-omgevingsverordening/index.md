@@ -11,6 +11,7 @@ title: TPOD omgevingsverordening
 | type  |Standaard|
 | id  |TPOD-omgevingsverordening|
 | omschrijving  |Toepassingsprofiel omgevingsverordening|
+| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/IMOW](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/IMOW)|
 
 ## Releases
 

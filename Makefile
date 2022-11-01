@@ -1,6 +1,6 @@
 .phony: website
 
-all: DependencyGraph.gdf DependencyGraph.svg release.md  docs/index.md ci.json
+all: DependencyGraph.gdf DependencyGraph.svg docs/index.md ci.json
 
 #
 # A gdf file can be opened by a graph visualiation tool.
@@ -28,11 +28,13 @@ DependencyGraph.dot: CreateDot.py Makefile
 	cat DependencyGraph.dot | dot -Kdot -Tsvg -Nfontcolor=red -Nshape=rect > DependencyGraph.svg
 
 
-
+config-koop:
+	sqlite3 ConfiguratieItems.sqlite < RunKOOP.sql
 config-rws:
 	sqlite3 ConfiguratieItems.sqlite < RunRWS.sql
 config-geonovum:
 	sqlite3 ConfiguratieItems.sqlite < RunGeonovum.sql
+
 
 #
 # Create initial state from sql dumps.
