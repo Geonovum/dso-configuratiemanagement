@@ -2,8 +2,6 @@
 title: Voorbeeldbestanden STTR
 ---
 
-# Voorbeeldbestanden STTR
-
 |element|waarde|
 |-----|------|
 | naam  |Voorbeeldbestanden STTR|

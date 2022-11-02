@@ -2,8 +2,6 @@
 title: IMTR in EA
 ---
 
-# IMTR in EA
-
 |element|waarde|
 |-----|------|
 | naam  |IMTR in EA|

@@ -2,8 +2,6 @@
 title: XSD Verzoeknotificatie
 ---
 
-# XSD Verzoeknotificatie
-
 |element|waarde|
 |-----|------|
 | naam  |XSD Verzoeknotificatie|

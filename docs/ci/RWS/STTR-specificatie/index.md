@@ -2,8 +2,6 @@
 title: STTR specificatie
 ---
 
-# STTR specificatie
-
 |element|waarde|
 |-----|------|
 | naam  |STTR specificatie|

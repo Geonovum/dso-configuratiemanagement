@@ -2,8 +2,6 @@
 title: XSD-IMTR
 ---
 
-# XSD-IMTR
-
 |element|waarde|
 |-----|------|
 | naam  |XSD-IMTR|

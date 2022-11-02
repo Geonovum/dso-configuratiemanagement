@@ -2,8 +2,6 @@
 title: IMAM
 ---
 
-# IMAM
-
 |element|waarde|
 |-----|------|
 | naam  |IMAM|

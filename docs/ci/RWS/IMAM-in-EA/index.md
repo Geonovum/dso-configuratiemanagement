@@ -2,8 +2,6 @@
 title: IMAM in EA
 ---
 
-# IMAM in EA
-
 |element|waarde|
 |-----|------|
 | naam  |IMAM in EA|

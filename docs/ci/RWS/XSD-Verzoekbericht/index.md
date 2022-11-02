@@ -2,8 +2,6 @@
 title: XSD Verzoekbericht
 ---
 
-# XSD Verzoekbericht
-
 |element|waarde|
 |-----|------|
 | naam  |XSD Verzoekbericht|

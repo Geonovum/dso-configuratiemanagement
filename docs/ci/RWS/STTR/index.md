@@ -2,8 +2,6 @@
 title: STTR
 ---
 
-# STTR
-
 |element|waarde|
 |-----|------|
 | naam  |STTR|

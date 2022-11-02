@@ -82,8 +82,6 @@ for row in beheeritemscursor.execute(getAllBeheeritems):
     outfile.write("title: " + naam + "\n")
     outfile.write("---\n")
     outfile.write("\n")
-    outfile.write('# ' + naam + '\n')
-    outfile.write("\n")
 
     outfile.write('|element|waarde|\n')
     outfile.write('|-----|------|\n')

@@ -2,8 +2,6 @@
 title: STTR schematron
 ---
 
-# STTR schematron
-
 |element|waarde|
 |-----|------|
 | naam  |STTR schematron|

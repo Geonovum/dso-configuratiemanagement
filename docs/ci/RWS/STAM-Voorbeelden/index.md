@@ -2,8 +2,6 @@
 title: Voorbeeldbestanden STAM
 ---
 
-# Voorbeeldbestanden STAM
-
 |element|waarde|
 |-----|------|
 | naam  |Voorbeeldbestanden STAM|

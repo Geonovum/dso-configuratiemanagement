@@ -2,8 +2,6 @@
 title: IMTR specificatie
 ---
 
-# IMTR specificatie
-
 |element|waarde|
 |-----|------|
 | naam  |IMTR specificatie|

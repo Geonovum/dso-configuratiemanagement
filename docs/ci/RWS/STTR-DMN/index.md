@@ -2,8 +2,6 @@
 title: STTR-DMN
 ---
 
-# STTR-DMN
-
 |element|waarde|
 |-----|------|
 | naam  |STTR-DMN|
