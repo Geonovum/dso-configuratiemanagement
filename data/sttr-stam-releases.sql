@@ -18,7 +18,7 @@ insert into ReleaseDependencies(itemid,dependsonitem) values
 -- STAM van 2022-11-15
 --
 insert into Releases(versienummer,itemid,downloaduri,status,releasedatum) values
-('2.1.0-rc','https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM','download','','2022-11-15'),
+('2.1.0-rc','https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM','download','','2022-11-15'),
 ('3.0.0','https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM','download','','2022-11-15'),
 ('2.0.0','https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoeknotificatie','download','','2022-11-15'),
 ('3.0.0','https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoekbericht','download','','2022-11-15'),

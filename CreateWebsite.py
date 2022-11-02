@@ -108,7 +108,7 @@ for row in beheeritemscursor.execute('SELECT uri,id, naam, omschrijving, organis
         curdep = con.cursor()
         for rdep in curdep.execute('SELECT itemid,dependsonitem FROM ReleaseDependencies where itemid = "' + rreleaseid + '"'):
             rditemid,rddependson = rdep;
-            rddependencies.append(rddependson);
+            rddependencies.append('[' + rddependson + '](' + rddependson + ') ');
 
         outfile.write('| [' + rversienummer + '](<' + rdownloaduri + '>)|' + str(rreleasedatum) + '|' +  ", ".join(rddependencies)  + '|\n')
         lastrelease = rversienummer
