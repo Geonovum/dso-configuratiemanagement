@@ -1,5 +1,5 @@
-insert into Releases(itemid,label,versienummer,downloaduri,releasedatum,status) VALUES
-    ('https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD','A-tripelaccent','0.1.0-todo','https://www.geonovum.nl/geo-standaarden/omgevingswet/STOPTPOD','2019-07-10','definitief');
+insert into ReleasesBase(organisatie,ci,label,versienummer,downloaduri,releasedatum,status) VALUES
+    ('Geonovum','TPOD','A-tripelaccent','0.1.0-todo','https://www.geonovum.nl/geo-standaarden/omgevingswet/STOPTPOD','2019-07-10','definitief');
 
 
 INSERT INTO ReleaseDependencies(itemid,dependsonitem) values

@@ -41,18 +41,28 @@ as
    where
       base.itemorganisatie = itemo.id and base.dependsonorganisatie = dependo.id;
 
-DROP TABLE if exists Releases;
-CREATE TABLE Releases
+DROP TABLE if exists ReleasesBase;
+CREATE TABLE ReleasesBase
 (
-		itemid TEXT not NULL,
+		organisatie TEXT not null,
+		ci TEXT not null,
 		label TEXT,
 		versienummer TEXT not null,
 		downloaduri TEXT,
 		releasedatum DATE,
 		status TEXT,
-		primary key (itemid,versienummer),
-		foreign key (itemid) references BeheerItems(uri)
+		primary key (organisatie,ci,versienummer)
+		--foreign key (itemid) references BeheerItems(uri)
 );
+
+DROP view if exists Releases;
+CREATE view Releases
+as
+select
+   o.baseuri || 'ci/' || rb.organisatie || '/' ||  rb.ci as itemid,
+   rb.*
+from ReleasesBase rb join Organisaties o on (rb.organisatie = o.id);
+;
 
 DROP TABLE if exists ReleaseDependencies;
 CREATE TABLE ReleaseDependencies
