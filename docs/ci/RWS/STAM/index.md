@@ -1,12 +1,12 @@
 ---
-title: XSD Verzoeknotificatie
+title: STAM
 ---
 
-# XSD Verzoeknotificatie
+# STAM
 
 |element|waarde|
 |-----|------|
-| naam  |XSD Verzoeknotificatie|
+| naam  |STAM|
 | omschrijving  |De Standaard aanvragen en meldingen (STAM) en het bijbehorende informatiemodel (IMAM) helpen bij het afleveren van een vergunningaanvraag of melding bij overheden.|
 | organisatie  |RWS|
 | download  | []()|

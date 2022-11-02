@@ -1,12 +1,12 @@
 ---
-title: XSD-IMTR
+title: STTR
 ---
 
-# XSD-IMTR
+# STTR
 
 |element|waarde|
 |-----|------|
-| naam  |XSD-IMTR|
+| naam  |STTR|
 | omschrijving  ||
 | organisatie  |RWS|
 | download  | []()|

@@ -64,8 +64,8 @@ for row in beheeritemscursor.execute(getAllBeheeritems):
     dependencies = [];
     cur = con.cursor()
     for dep in cur.execute('SELECT bd.itemid,bd.dependsonitem,b.naam FROM BeheeritemDependencies bd join BeheerItems b on (bd.dependsonitem = b.uri) where bd.itemid = "' + uri + '"'):
-        itemid,dependson,naam = dep;
-        dependencies.append("[" + naam + "](" + dependson + ")");
+        itemid,dependson,bgnaam = dep;
+        dependencies.append("[" + bgnaam + "](" + dependson + ")");
     #
     # Create folder for package and open file
     #
