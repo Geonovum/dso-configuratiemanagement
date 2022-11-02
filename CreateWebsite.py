@@ -43,12 +43,19 @@ indexfile.write ("|Naam|Organisatie|Type|Laatste release|\n")
 indexfile.write ("|----|-----------|----|------------|\n")
 
 #
-#  Make a separate page for each beheerItem.
+#  Dit is de sql query die alle beheeritems ophaalt.
 #
-beheeritemscursor = con.cursor()
-for row in beheeritemscursor.execute('SELECT uri,id, naam, omschrijving, organisatie, intern, releaselocatie, type FROM Beheeritems where intern == 0 and local == 1 order by organisatie,naam'):
-    uri,ide,naam,omschrijving,organisatie,internx,releaselocatie,typex = row
+getAllBeheeritems = '''
+SELECT uri,id, naam, omschrijving, organisatie, intern, releaselocatie, type 
+FROM Beheeritems
+where intern == 0 and local == 1
+order by organisatie,naam
+'''
 
+
+beheeritemscursor = con.cursor()
+for row in beheeritemscursor.execute(getAllBeheeritems):
+    uri,ide,naam,omschrijving,organisatie,internx,releaselocatie,typex = row
 
     sys.stderr.write("Processing: " + uri + "\n")
     #
@@ -80,11 +87,12 @@ for row in beheeritemscursor.execute('SELECT uri,id, naam, omschrijving, organis
 
     outfile.write('|element|waarde|\n')
     outfile.write('|-----|------|\n')
+    outfile.write('| naam  |' + str(naam) + '|\n')
+    outfile.write('| omschrijving  |' + str(omschrijving) + '|\n')
     outfile.write('| organisatie  |' + str(organisatie) + '|\n')
     outfile.write('| download  | [' + str(releaselocatie) + '](<' + str(releaselocatie) + '>)|\n')
     outfile.write('| type  |' + str(typex) + '|\n')
     outfile.write('| id  |' + ide + '|\n')
-    outfile.write('| omschrijving  |' + str(omschrijving) + '|\n')
     if (len(dependencies) != 0):
         outfile.write('| Gebruikt|' + ", ".join(dependencies) + '|\n')
 

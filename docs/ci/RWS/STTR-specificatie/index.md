@@ -6,16 +6,17 @@ title: Specificatie STTR
 
 |element|waarde|
 |-----|------|
+| naam  |Specificatie STTR|
+| omschrijving  ||
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
 | id  |STTR-specificatie|
-| omschrijving  ||
 
 ## Releases
 
 |Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
-| [1.4.1](<download>)|2022-09-30||
-| [1.4.2](<download>)|2022-11-15||
+| [1.4.1](<https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/>)|2022-09-30||
+| [1.4.2](<https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/>)|2022-11-15||
 

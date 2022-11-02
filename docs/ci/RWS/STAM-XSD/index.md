@@ -6,15 +6,16 @@ title: XSD STAM
 
 |element|waarde|
 |-----|------|
+| naam  |XSD STAM|
+| omschrijving  ||
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
 | id  |STAM-XSD|
-| omschrijving  ||
 
 ## Releases
 
 |Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
-| [2.0.0](<download>)|2022-07-18||
+| [2.0.0](<https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/>)|2022-07-18||
 

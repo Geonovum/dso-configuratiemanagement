@@ -6,15 +6,10 @@ title: STTR Schematron
 
 |element|waarde|
 |-----|------|
+| naam  |STTR Schematron|
+| omschrijving  ||
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
 | id  |STTR-Schematron|
-| omschrijving  ||
-
-## Releases
-
-|Versienummer|Datum release|Hangt af van
-|-------|-------|-----|
-| [nn](<download>)|2022-11-15||
 
