@@ -49,14 +49,16 @@ insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,release
 insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("IMTR-in-EA","IMTR in EA","","RWS",false,"Standaard","");
 insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("STTR-specificatie","Specificatie STTR","","RWS",false,"Standaard","");
 insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("STAM","STAM","De Standaard aanvragen en meldingen (STAM) en het bijbehorende informatiemodel (IMAM) helpen bij het afleveren van een vergunningaanvraag of melding bij overheden.","RWS",false,"Standaard","");
+insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','XSD-verzoekbericht','RWS','STAM');
 insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','STAM-Voorbeelden','RWS','STAM');
+insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','XSD-verzoeknotificatie','RWS','STAM');
+insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','XSD-Verzoeknotificatie','RWS','STAM');
+insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','XSD-Verzoekbericht','RWS','STAM');
 insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','IMAM','RWS','STAM');
 insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','IMAM-in-EA','RWS','STAM');
 insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','STAM-XSD','RWS','STAM');
 insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("STTR","STTR","","RWS",false,"Standaard","");
 insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','IMTR-XSD','RWS','STTR');
-insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','XSD-Verzoeknotificatie','RWS','STTR');
-insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','XSD-Verzoekbericht','RWS','STTR');
 insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','STTR-Voorbeelden','RWS','STTR');
 insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','IMTR','RWS','STTR');
 insert into BeheerItemDependenciesBase(itemorganisatie,itemid,dependsonorganisatie,dependsonid) values ('RWS','IMTR-in-EA','RWS','STTR');
@@ -68,6 +70,8 @@ insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,release
 insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("STAM-Voorbeelden","Voorbeeldbestanden STAM","","RWS",false,"Standaard","");
 insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("STTR-Voorbeelden","Voorbeeldbestanden-STTR","","RWS",false,"Standaard","");
 insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("STAM-XSD","XSD STAM","","RWS",false,"Standaard","");
+insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("XSD-verzoekbericht","XSD verzoekbericht","","RWS",false,"Standaard","");
 insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("XSD-Verzoekbericht","XSD Verzoekbericht","","RWS",false,"Standaard","");
 insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("XSD-Verzoeknotificatie","XSD Verzoeknotificatie","","RWS",false,"Standaard","");
+insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("XSD-verzoeknotificatie","XSD verzoeknotificatie","","RWS",false,"Standaard","");
 insert into BeheerItemsBase(id,naam,omschrijving,organisatie,intern,type,releaselocatie) values("IMTR-XSD","XSD-IMTR","","RWS",false,"Standaard","");

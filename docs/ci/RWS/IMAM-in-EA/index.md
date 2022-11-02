@@ -11,5 +11,11 @@ title: IMAM in EA
 | type  |Standaard|
 | id  |IMAM-in-EA|
 | omschrijving  |IMAM model in Enterprise Architect|
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement-rws/ci/RWS/STAM](https://geonovum.github.io/dso-configuratiemanagement-rws/ci/RWS/STAM)|
+| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM)|
+
+## Releases
+
+|Versienummer|Datum release|Hangt af van
+|-------|-------|-----|
+| [2.0.1](<dowload>)|2022-07-18||
 

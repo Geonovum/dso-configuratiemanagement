@@ -11,5 +11,5 @@ title: Specificatie STTR
 | type  |Standaard|
 | id  |STTR-specificatie|
 | omschrijving  ||
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement-rws/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement-rws/ci/RWS/STTR)|
+| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|
 

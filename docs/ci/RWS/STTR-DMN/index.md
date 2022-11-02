@@ -11,5 +11,5 @@ title: STTR-DMN
 | type  |Standaard|
 | id  |STTR-DMN|
 | omschrijving  ||
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement-rws/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement-rws/ci/RWS/STTR)|
+| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|
 

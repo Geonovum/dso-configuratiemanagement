@@ -11,5 +11,5 @@ title: Voorbeeldbestanden-STTR
 | type  |Standaard|
 | id  |STTR-Voorbeelden|
 | omschrijving  ||
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement-rws/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement-rws/ci/RWS/STTR)|
+| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|
 
