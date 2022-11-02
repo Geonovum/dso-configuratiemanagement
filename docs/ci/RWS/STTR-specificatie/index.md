@@ -7,8 +7,8 @@ title: STTR specificatie
 | naam  |STTR specificatie|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | []()|
-| type  |Standaard|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/)|
+| type  |Informatiemodel|
 | id  |STTR-specificatie|
 
 ## Releases

@@ -7,7 +7,7 @@ title: STAM
 | naam  |STAM|
 | omschrijving  |De Standaard aanvragen en meldingen (STAM) en het bijbehorende informatiemodel (IMAM) helpen bij het afleveren van een vergunningaanvraag of melding bij overheden.|
 | organisatie  |RWS|
-| download  | []()|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/)|
 | type  |Beheergroep|
 | id  |STAM|
 | Gebruikt|[IMAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM), [IMAM in EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM-in-EA), [Voorbeeldbestanden STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-voorbeelden), [XSD STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-XSD), [XSD Verzoekbericht](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoekbericht), [XSD Verzoeknotificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoeknotificatie)|

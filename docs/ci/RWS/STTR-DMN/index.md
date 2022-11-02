@@ -7,7 +7,7 @@ title: STTR-DMN
 | naam  |STTR-DMN|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | []()|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/)|
 | type  |Standaard|
 | id  |STTR-DMN|
 

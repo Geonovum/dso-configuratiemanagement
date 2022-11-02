@@ -7,7 +7,7 @@ title: STTR
 | naam  |STTR|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | []()|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/)|
 | type  |Beheergroep|
 | id  |STTR|
 | Gebruikt|[IMTR in EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-in-EA), [IMTR specificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-specificatie), [STTR schematron](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-schematron), [STTR specificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-specificatie), [STTR-DMN](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-DMN), [Voorbeeldbestanden STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-voorbeelden), [XSD-IMTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-XSD)|

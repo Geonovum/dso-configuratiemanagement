@@ -7,8 +7,8 @@ title: IMTR in EA
 | naam  |IMTR in EA|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | []()|
-| type  |Standaard|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/)|
+| type  |Standaardartefact|
 | id  |IMTR-in-EA|
 
 ## Releases

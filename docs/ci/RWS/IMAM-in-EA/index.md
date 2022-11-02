@@ -7,8 +7,8 @@ title: IMAM in EA
 | naam  |IMAM in EA|
 | omschrijving  |IMAM model in Enterprise Architect|
 | organisatie  |RWS|
-| download  | []()|
-| type  |Standaard|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/)|
+| type  |Standaardartefact|
 | id  |IMAM-in-EA|
 
 ## Releases

@@ -7,8 +7,8 @@ title: XSD STAM
 | naam  |XSD STAM|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | []()|
-| type  |Standaard|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/)|
+| type  |Schema|
 | id  |STAM-XSD|
 
 ## Releases

@@ -7,8 +7,8 @@ title: IMAM
 | naam  |IMAM|
 | omschrijving  |Specificatie STAM inclusief IMAM|
 | organisatie  |RWS|
-| download  | []()|
-| type  |Standaard|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/)|
+| type  |Informatiemodel|
 | id  |IMAM|
 
 ## Releases

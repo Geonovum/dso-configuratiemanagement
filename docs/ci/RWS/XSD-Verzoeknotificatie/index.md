@@ -7,8 +7,8 @@ title: XSD Verzoeknotificatie
 | naam  |XSD Verzoeknotificatie|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | []()|
-| type  |Standaard|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/)|
+| type  |Schema|
 | id  |XSD-verzoeknotificatie|
 
 ## Releases

@@ -7,8 +7,8 @@ title: XSD-IMTR
 | naam  |XSD-IMTR|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | []()|
-| type  |Standaard|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/)|
+| type  |Schema|
 | id  |IMTR-XSD|
 
 ## Releases

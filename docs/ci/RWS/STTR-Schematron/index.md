@@ -7,8 +7,8 @@ title: STTR schematron
 | naam  |STTR schematron|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | []()|
-| type  |Standaard|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/)|
+| type  |Standaardartefact|
 | id  |STTR-schematron|
 
 ## Releases

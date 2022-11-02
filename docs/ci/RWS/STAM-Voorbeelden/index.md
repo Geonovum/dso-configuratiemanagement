@@ -7,8 +7,8 @@ title: Voorbeeldbestanden STAM
 | naam  |Voorbeeldbestanden STAM|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | []()|
-| type  |Standaard|
+| download  | [https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/](https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/)|
+| type  |Voorbeeldbestand|
 | id  |STAM-voorbeelden|
 
 ## Releases
