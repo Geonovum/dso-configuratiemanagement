@@ -49,7 +49,7 @@ getAllBeheeritems = '''
 SELECT uri,id, naam, omschrijving, organisatie, intern, releaselocatie, type 
 FROM Beheeritems
 where intern == 0 and local == 1
-order by organisatie,naam
+order by type,organisatie,naam
 '''
 
 

@@ -1,18 +1,17 @@
 ---
-title: XSD verzoekbericht
+title: XSD Verzoekbericht
 ---
 
-# XSD verzoekbericht
+# XSD Verzoekbericht
 
 |element|waarde|
 |-----|------|
-| naam  |XSD verzoekbericht|
+| naam  |XSD Verzoekbericht|
 | omschrijving  ||
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
 | id  |XSD-verzoekbericht|
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM)|
 
 ## Releases
 

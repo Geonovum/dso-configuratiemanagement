@@ -1,18 +1,17 @@
 ---
-title: XSD verzoeknotificatie
+title: XSD Verzoeknotificatie
 ---
 
-# XSD verzoeknotificatie
+# XSD Verzoeknotificatie
 
 |element|waarde|
 |-----|------|
-| naam  |XSD verzoeknotificatie|
+| naam  |XSD Verzoeknotificatie|
 | omschrijving  ||
 | organisatie  |RWS|
 | download  | [](<>)|
 | type  |Standaard|
 | id  |XSD-verzoeknotificatie|
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM)|
 
 ## Releases
 

@@ -10,9 +10,9 @@ title: STAM
 | omschrijving  |De Standaard aanvragen en meldingen (STAM) en het bijbehorende informatiemodel (IMAM) helpen bij het afleveren van een vergunningaanvraag of melding bij overheden.|
 | organisatie  |RWS|
 | download  | [](<>)|
-| type  |Standaard|
+| type  |Beheergroep|
 | id  |STAM|
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM-in-EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM-in-EA), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-Voorbeelden](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-Voorbeelden), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-XSD](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-XSD), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-Verzoekbericht](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-Verzoekbericht), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-Verzoeknotificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-Verzoeknotificatie)|
+| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM-in-EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM-in-EA), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-voorbeelden](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-voorbeelden), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-XSD](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-XSD), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoekbericht](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoekbericht), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoeknotificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoeknotificatie)|
 
 ## Releases
 

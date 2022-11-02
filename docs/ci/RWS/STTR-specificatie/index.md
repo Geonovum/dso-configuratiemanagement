@@ -1,12 +1,12 @@
 ---
-title: Specificatie STTR
+title: STTR specificatie
 ---
 
-# Specificatie STTR
+# STTR specificatie
 
 |element|waarde|
 |-----|------|
-| naam  |Specificatie STTR|
+| naam  |STTR specificatie|
 | omschrijving  ||
 | organisatie  |RWS|
 | download  | [](<>)|
