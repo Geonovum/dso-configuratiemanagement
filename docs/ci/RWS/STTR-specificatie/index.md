@@ -11,5 +11,11 @@ title: Specificatie STTR
 | type  |Standaard|
 | id  |STTR-specificatie|
 | omschrijving  ||
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|
+
+## Releases
+
+|Versienummer|Datum release|Hangt af van
+|-------|-------|-----|
+| [1.4.1](<download>)|2022-09-30||
+| [1.4.2](<download>)|2022-11-15||
 

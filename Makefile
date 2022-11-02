@@ -41,7 +41,10 @@ config-geonovum:
 #
 create:
 	sqlite3 ConfiguratieItems.sqlite < create.sql
-	cat data/*sql | sqlite3 ConfiguratieItems.sqlite 
+	cat data/BeheerItems.sql  | sqlite3 ConfiguratieItems.sqlite
+	cat data/TPOD.sql | sqlite3 ConfiguratieItems.sqlite
+	cat data/sttr-stam-releases.sql | sqlite3 ConfiguratieItems.sqlite
+	cat data/tpod-repo.sql | sqlite3 ConfiguratieItems.sqlite
 
 clean:
 	rm -f DependencyGraph.gdf

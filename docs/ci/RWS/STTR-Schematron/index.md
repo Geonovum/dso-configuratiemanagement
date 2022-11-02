@@ -11,5 +11,10 @@ title: STTR Schematron
 | type  |Standaard|
 | id  |STTR-Schematron|
 | omschrijving  ||
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|
+
+## Releases
+
+|Versienummer|Datum release|Hangt af van
+|-------|-------|-----|
+| [nn](<download>)|2022-11-15||
 

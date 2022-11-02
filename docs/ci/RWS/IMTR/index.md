@@ -11,5 +11,4 @@ title: IMTR
 | type  |Standaard|
 | id  |IMTR|
 | omschrijving  ||
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|
 

@@ -11,5 +11,10 @@ title: XSD-IMTR
 | type  |Standaard|
 | id  |IMTR-XSD|
 | omschrijving  ||
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|
+
+## Releases
+
+|Versienummer|Datum release|Hangt af van
+|-------|-------|-----|
+| [1.0](<download>)|2022-09-30||
 

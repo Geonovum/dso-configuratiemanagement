@@ -11,11 +11,12 @@ title: IMAM
 | type  |Standaard|
 | id  |IMAM|
 | omschrijving  |Specificatie STAM inclusief IMAM|
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM)|
 
 ## Releases
 
 |Versienummer|Datum release|Hangt af van
 |-------|-------|-----|
-| [2.0.1](<dowload>)|2022-07-18||
+| [2.0.1](<download>)|2022-07-18||
+| [2.1.0-rc](<download>)|2022-11-15||
+| [3.0.0](<download>)|2022-11-15||
 
