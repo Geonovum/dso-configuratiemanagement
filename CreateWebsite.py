@@ -63,9 +63,9 @@ for row in beheeritemscursor.execute(getAllBeheeritems):
     #
     dependencies = [];
     cur = con.cursor()
-    for dep in cur.execute('SELECT itemid,dependsonitem FROM BeheeritemDependencies where itemid = "' + uri + '"'):
-        itemid,dependson = dep;
-        dependencies.append("[" + dependson + "](" + dependson + ")");
+    for dep in cur.execute('SELECT bd.itemid,bd.dependsonitem,b.naam FROM BeheeritemDependencies bd join BeheerItems b on (bd.dependsonitem = b.uri) where bd.itemid = "' + uri + '"'):
+        itemid,dependson,naam = dep;
+        dependencies.append("[" + naam + "](" + dependson + ")");
     #
     # Create folder for package and open file
     #
@@ -114,7 +114,7 @@ for row in beheeritemscursor.execute(getAllBeheeritems):
 
         rddependencies = [];
         curdep = con.cursor()
-        for rdep in curdep.execute('SELECT itemid,dependsonitem FROM ReleaseDependencies where itemid = "' + rreleaseid + '"'):
+        for rdep in curdep.execute('SELECT rd.itemid,rd.dependsonitem FROM ReleaseDependencies rd  where rd.itemid = "' + rreleaseid + '"'):
             rditemid,rddependson = rdep;
             rddependencies.append('[' + rddependson + '](' + rddependson + ') ');
 

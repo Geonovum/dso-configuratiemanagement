@@ -1,18 +1,18 @@
 ---
-title: STAM
+title: XSD Verzoeknotificatie
 ---
 
-# STAM
+# XSD Verzoeknotificatie
 
 |element|waarde|
 |-----|------|
-| naam  |STAM|
+| naam  |XSD Verzoeknotificatie|
 | omschrijving  |De Standaard aanvragen en meldingen (STAM) en het bijbehorende informatiemodel (IMAM) helpen bij het afleveren van een vergunningaanvraag of melding bij overheden.|
 | organisatie  |RWS|
 | download  | []()|
 | type  |Beheergroep|
 | id  |STAM|
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM-in-EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM-in-EA), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-voorbeelden](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-voorbeelden), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-XSD](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-XSD), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoekbericht](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoekbericht), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoeknotificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoeknotificatie)|
+| Gebruikt|[IMAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM), [IMAM in EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM-in-EA), [Voorbeeldbestanden STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-voorbeelden), [XSD STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-XSD), [XSD Verzoekbericht](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoekbericht), [XSD Verzoeknotificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoeknotificatie)|
 
 ## Releases
 

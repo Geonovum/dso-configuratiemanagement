@@ -5,8 +5,8 @@ Proof of concept van overzicht van beheeritems binnen het DSO.
 
 |Naam|Organisatie|Type|Laatste release|
 |----|-----------|----|------------|
-|[STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM)|RWS|Beheergroep|2.1.0-rc
-|[STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|RWS|Beheergroep|1.4.2
+|[XSD Verzoeknotificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM)|RWS|Beheergroep|2.1.0-rc
+|[XSD-IMTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|RWS|Beheergroep|1.4.2
 |[IMAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM)|RWS|Standaard|3.0.0
 |[IMAM in EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM-in-EA)|RWS|Standaard|2.0.1
 |[IMTR in EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-in-EA)|RWS|Standaard|1.0.8

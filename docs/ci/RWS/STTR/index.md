@@ -1,18 +1,18 @@
 ---
-title: STTR
+title: XSD-IMTR
 ---
 
-# STTR
+# XSD-IMTR
 
 |element|waarde|
 |-----|------|
-| naam  |STTR|
+| naam  |XSD-IMTR|
 | omschrijving  ||
 | organisatie  |RWS|
 | download  | []()|
 | type  |Beheergroep|
 | id  |STTR|
-| Gebruikt|[https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-in-EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-in-EA), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-specificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-specificatie), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-schematron](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-schematron), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-specificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-specificatie), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-DMN](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-DMN), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-voorbeelden](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-voorbeelden), [https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-XSD](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-XSD)|
+| Gebruikt|[IMTR in EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-in-EA), [IMTR specificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-specificatie), [STTR schematron](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-schematron), [STTR specificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-specificatie), [STTR-DMN](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-DMN), [Voorbeeldbestanden STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-voorbeelden), [XSD-IMTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-XSD)|
 
 ## Releases
 
