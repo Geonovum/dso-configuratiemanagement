@@ -9,7 +9,7 @@ title: IMAM in EA
 | naam  |IMAM in EA|
 | omschrijving  |IMAM model in Enterprise Architect|
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |IMAM-in-EA|
 

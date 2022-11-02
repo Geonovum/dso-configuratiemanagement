@@ -9,7 +9,7 @@ title: STTR-DMN
 | naam  |STTR-DMN|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |STTR-DMN|
 

@@ -9,7 +9,7 @@ title: STTR schematron
 | naam  |STTR schematron|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |STTR-schematron|
 

@@ -9,7 +9,7 @@ title: IMAM
 | naam  |IMAM|
 | omschrijving  |Specificatie STAM inclusief IMAM|
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |IMAM|
 

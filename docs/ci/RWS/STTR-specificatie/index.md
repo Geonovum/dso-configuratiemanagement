@@ -9,7 +9,7 @@ title: STTR specificatie
 | naam  |STTR specificatie|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |STTR-specificatie|
 

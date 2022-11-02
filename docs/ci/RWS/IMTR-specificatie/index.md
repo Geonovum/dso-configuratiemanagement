@@ -9,7 +9,7 @@ title: IMTR specificatie
 | naam  |IMTR specificatie|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |IMTR-specificatie|
 

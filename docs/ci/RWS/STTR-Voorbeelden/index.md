@@ -9,7 +9,7 @@ title: Voorbeeldbestanden STTR
 | naam  |Voorbeeldbestanden STTR|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |STTR-voorbeelden|
 

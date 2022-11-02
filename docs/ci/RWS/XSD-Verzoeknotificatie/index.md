@@ -9,7 +9,7 @@ title: XSD Verzoeknotificatie
 | naam  |XSD Verzoeknotificatie|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |XSD-verzoeknotificatie|
 

@@ -9,7 +9,7 @@ title: XSD Verzoekbericht
 | naam  |XSD Verzoekbericht|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |XSD-verzoekbericht|
 

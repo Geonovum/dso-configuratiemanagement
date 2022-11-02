@@ -90,7 +90,7 @@ for row in beheeritemscursor.execute(getAllBeheeritems):
     outfile.write('| naam  |' + str(naam) + '|\n')
     outfile.write('| omschrijving  |' + str(omschrijving) + '|\n')
     outfile.write('| organisatie  |' + str(organisatie) + '|\n')
-    outfile.write('| download  | [' + str(releaselocatie) + '](<' + str(releaselocatie) + '>)|\n')
+    outfile.write('| download  | [' + str(releaselocatie) + '](' + str(releaselocatie) + ')|\n')
     outfile.write('| type  |' + str(typex) + '|\n')
     outfile.write('| id  |' + ide + '|\n')
     if (len(dependencies) != 0):

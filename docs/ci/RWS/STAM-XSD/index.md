@@ -9,7 +9,7 @@ title: XSD STAM
 | naam  |XSD STAM|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |STAM-XSD|
 

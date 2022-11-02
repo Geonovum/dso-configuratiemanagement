@@ -9,7 +9,7 @@ title: XSD-IMTR
 | naam  |XSD-IMTR|
 | omschrijving  ||
 | organisatie  |RWS|
-| download  | [](<>)|
+| download  | []()|
 | type  |Standaard|
 | id  |IMTR-XSD|
 
