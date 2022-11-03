@@ -1,13 +1,13 @@
 DROP TABLE if exists BeheerItemsBase;
 CREATE TABLE BeheerItemsBase 
 ( 
-        id TEXT NOT NULL, 
-        naam TEXT, 
-        omschrijving TEXT,
-        organisatie TEXT NOT NULL,
-        intern INTEGER NOT NULL DEFAULT 0, 
-        releaselocatie TEXT,
-        type TEXT,
+        id TEXT NOT NULL, 			-- Unieke identificatie van het beheeritem binnen de organisatie.
+        naam TEXT, 				-- Mens-leesbare beschrijven te gebruiken als label.
+        omschrijving TEXT,			-- Iets langere omschrijving.
+        organisatie TEXT NOT NULL,		-- Identificatie van de organisatie. Wordt gebruikt om URI te construeren.
+        intern INTEGER NOT NULL DEFAULT 0, 	-- Interne beheeritems komen niet op de website.
+        releaselocatie TEXT,			-- URL waar je de releases kunt vinden.
+        type TEXT,				-- Categorisatie. (Standaard,Beheergrep,Voorbeeldbestand,...)
         PRIMARY KEY(organisatie,id)
 );
 
@@ -44,12 +44,12 @@ as
 DROP TABLE if exists ReleasesBase;
 CREATE TABLE ReleasesBase
 (
-		organisatie TEXT not null,
-		ci TEXT not null,
+		organisatie TEXT not null,		-- De organisatie die de release doet
+		ci TEXT not null,			-- Het gereleasede configuratieitem
 		label TEXT,
-		versienummer TEXT not null,
-		downloaduri TEXT,
-		releasedatum DATE,
+		versienummer TEXT not null,		-- Het versienummer van het gereleasde ding.
+		downloaduri TEXT,			-- Waar kun je het ding downloaden?
+		releasedatum DATE,			-- Wanneer was de release?
 		status TEXT,
 		primary key (organisatie,ci,versienummer)
 		--foreign key (itemid) references BeheerItems(uri)

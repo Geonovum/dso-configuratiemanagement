@@ -5,19 +5,24 @@ Proof of concept van overzicht van beheeritems binnen het DSO.
 
 |Naam|Organisatie|Type|Laatste release|
 |----|-----------|----|------------|
-|[STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM)|RWS|Beheergroep|2.1.0-rc
-|[STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR)|RWS|Beheergroep|1.4.2
-|[IMAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM)|RWS|Informatiemodel|3.0.0
-|[IMTR specificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-specificatie)|RWS|Informatiemodel|1.4.1
-|[STTR specificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-specificatie)|RWS|Informatiemodel|1.4.2
-|[XSD STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-XSD)|RWS|Schema|2.0.0
-|[XSD Verzoekbericht](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoekbericht)|RWS|Schema|3.0.0
-|[XSD Verzoeknotificatie](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/XSD-verzoeknotificatie)|RWS|Schema|2.0.0
-|[XSD-IMTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-XSD)|RWS|Schema|1.0
-|[STTR-DMN](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-DMN)|RWS|Standaard|nn
-|[IMAM in EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMAM-in-EA)|RWS|Standaardartefact|2.0.1
-|[IMTR in EA](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/IMTR-in-EA)|RWS|Standaardartefact|1.0.8
-|[STTR schematron](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-schematron)|RWS|Standaardartefact|nn
-|[Voorbeeldbestanden STAM](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STAM-voorbeelden)|RWS|Voorbeeldbestand|3.0.0
-|[Voorbeeldbestanden STTR](https://geonovum.github.io/dso-configuratiemanagement/ci/RWS/STTR-voorbeelden)|RWS|Voorbeeldbestand|1.4.1
+|[TPOD standaard](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD)|Geonovum|Beheergroep|0.1.0-todo
+|[CIMOW](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/CIMOW)|Geonovum|Standaard|2.1.0-rc
+|[IMOW model](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/IMOW)|Geonovum|Standaard|2.0.1-rc
+|[Presentatiemodel TPOD](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/Presentatie)|Geonovum|Standaard|
+|[Symbolenbibliotheek STOP-TPOD](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-Symbolen)|Geonovum|Standaard|2.0.0-rc
+|[TPOD AMvB en MR](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-AMvB)|Geonovum|Standaard|2.0.1-rc
+|[TPOD Natura 2000-besluit](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-N2000)|Geonovum|Standaard|2.0.1-rc
+|[TPOD instructie](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-instructie)|Geonovum|Standaard|2.0.1-rc
+|[TPOD kennisgeving omgevingsvergunning voor buitenplanse omgevingsplanactiviteiten](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-kennisgeving)|Geonovum|Standaard|1.0.0
+|[TPOD omgevingsplan](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-omgevingsplan)|Geonovum|Standaard|2.1.0-rc
+|[TPOD omgevingsverordening](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-omgevingsverordening)|Geonovum|Standaard|2.0.1-rc
+|[TPOD omgevingsvisie](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-omgevingsvisie)|Geonovum|Standaard|2.0.1-rc
+|[TPOD programma](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-programma)|Geonovum|Standaard|2.0.1-rc
+|[TPOD projectbesluit](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-projectbesluit)|Geonovum|Standaard|3.0.0
+|[TPOD reactieve interventie](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-reactieve-interventie)|Geonovum|Standaard|2.0.1-rc
+|[TPOD validatieregels](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-validatieregels)|Geonovum|Standaard|1.4
+|[TPOD voorbereidingsbesluit](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-voorbereidingsbesluit)|Geonovum|Standaard|2.0.1-rc
+|[TPOD waterschapsverordening](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/TPOD-waterschapsverordening)|Geonovum|Standaard|2.0.1-rc
+|[Waardelijsten IMOW](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/IMOW-waardelijsten)|Geonovum|Standaard|3.0.0
+|[XSD IMOW](https://geonovum.github.io/dso-configuratiemanagement/ci/Geonovum/IMOW-XSD)|Geonovum|Standaard|2.0.0-rc
 
