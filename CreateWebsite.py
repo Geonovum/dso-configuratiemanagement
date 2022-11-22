@@ -125,3 +125,65 @@ for row in beheeritemscursor.execute(getAllBeheeritems):
 
 indexfile.write('\n')
 indexfile.close
+
+#
+# Create main index page in markdown for deployment site. Currently it contains a list of
+# all configuration items in the DBMS. Later this page gets convert to HTML.
+#
+funcfile = open("docs/functionality/index.md","wt")
+
+#
+# Write YAML
+#
+funcfile.write("---\n")
+funcfile.write("title: Functionalities\n")
+funcfile.write("---\n")
+#
+# Document inhoud
+#
+funcfile.write("Proof of concept van overzicht van functionaliteiten binnen het DSO.\n")
+funcfile.write("\n")
+funcfile.write ("|id |naam|\n")
+funcfile.write ("|---|----|\n")
+
+#
+#  Dit is de sql query die alle functionaliteiten ophaalt.
+#
+getAllFunctionalities = '''
+SELECT id,naam,omschrijving
+FROM Functionalities
+order by naam
+'''
+
+
+functionalitiescursor = con.cursor()
+for row in functionalitiescursor.execute(getAllFunctionalities):
+    id,naam,omschrijving = row
+
+    sys.stderr.write("Processing: " + id + "\n")
+    funcfile.write ("|[{}]({})|{}|\n".format(id,id,naam))
+
+    #
+    # Create folder for package and open file
+    #
+    outfolder = "docs/functionality/" + id
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
+    sys.stderr.write("Writing to: " + outfolder + "\n")
+    outfile = open(outfolder + "/index.md","wt")
+
+    #
+    # Print ci info.
+    #
+    outfile.write("---\n")
+    outfile.write("title: " + naam + "\n")
+    outfile.write("---\n")
+    outfile.write("\n")
+
+    outfile.write('|element|waarde|\n')
+    outfile.write('|-----|------|\n')
+    outfile.write('| naam  |' + str(naam) + '|\n')
+    outfile.write('| omschrijving  |' + str(omschrijving) + '|\n')
+
+    outfile.write('\n')
+    outfile.close()

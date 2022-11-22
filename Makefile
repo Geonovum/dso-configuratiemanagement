@@ -45,6 +45,7 @@ create:
 	cat data/TPOD.sql | sqlite3 ConfiguratieItems.sqlite
 	cat data/sttr-stam-releases.sql | sqlite3 ConfiguratieItems.sqlite
 	cat data/tpod-repo.sql | sqlite3 ConfiguratieItems.sqlite
+	cat data/functionality.sql | sqlite3 ConfiguratieItems.sqlite
 
 clean:
 	rm -f DependencyGraph.gdf
