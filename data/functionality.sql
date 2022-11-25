@@ -3,27 +3,29 @@
 --     Wilko Quak (w.quak@geonovum.nl)
 --
 drop table if exists Functionalities;
-create table Functionalities(id text,naam text,omschrijving text);
+create table Functionalities(id text, uri text,naam text,omschrijving text);
 drop table if exists FunctionalityDependencies;
 create table FunctionalityDependencies(functionality,dependson);
-insert into Functionalities(id,naam,omschrijving) values("LosseConsolidatie","Apart aanleveren consolidatie","Het is mogelijk om een losse consolidatie aan te leveren");
+insert into Functionalities(id,uri,naam,omschrijving) values("LosseConsolidatie","https://geonovum.github.io/dso-configuratiemanagement/functionality/LosseConsolidatie","Apart aanleveren consolidatie","Het is mogelijk om een losse consolidatie aan te leveren");
 insert into FunctionalityDependencies(functionality,dependson) values ('Release-B','LosseConsolidatie');
-insert into Functionalities(id,naam,omschrijving) values("Artikelstructuur","Documenten met artikelstructuur","Aanleveren van documenten met artikelstructuur wordt ondersteund");
+insert into Functionalities(id,uri,naam,omschrijving) values("Artikelstructuur","https://geonovum.github.io/dso-configuratiemanagement/functionality/Artikelstructuur","Documenten met artikelstructuur","Aanleveren van documenten met artikelstructuur wordt ondersteund");
 insert into FunctionalityDependencies(functionality,dependson) values ('Omgevingsplan','Artikelstructuur');
-insert into Functionalities(id,naam,omschrijving) values("VrijeTekst","Documenten met vrije tekststructuur","Aanleveren van documenten met vrije-tekst structuur wordt ondersteund");
+insert into Functionalities(id,uri,naam,omschrijving) values("VrijeTekst","https://geonovum.github.io/dso-configuratiemanagement/functionality/VrijeTekst","Documenten met vrije tekststructuur","Aanleveren van documenten met vrije-tekst structuur wordt ondersteund");
 insert into FunctionalityDependencies(functionality,dependson) values ('Omgevingsverordening','VrijeTekst');
 insert into FunctionalityDependencies(functionality,dependson) values ('Omgevingsvisie','VrijeTekst');
-insert into Functionalities(id,naam,omschrijving) values("Release-A","DSO Inwerkingtredingsniveau","De afgesproken functionaliteit op het moment van inwerkingtreding.");
+insert into Functionalities(id,uri,naam,omschrijving) values("Release-A","https://geonovum.github.io/dso-configuratiemanagement/functionality/Release-A","DSO Inwerkingtredingsniveau","De afgesproken functionaliteit op het moment van inwerkingtreding.");
 insert into FunctionalityDependencies(functionality,dependson) values ('release-Pre-B','Release-A');
-insert into Functionalities(id,naam,omschrijving) values("Release-B","DSO release-B minimaal","Minimale functionaleit van Release-B");
-insert into Functionalities(id,naam,omschrijving) values("release-Pre-B","DSO-pre-B","De functionaliteit die nodig is om het concurrent versioning traject in te gaan.");
+insert into Functionalities(id,uri,naam,omschrijving) values("Release-B","https://geonovum.github.io/dso-configuratiemanagement/functionality/Release-B","DSO release-B minimaal","Minimale functionaleit van Release-B");
+insert into Functionalities(id,uri,naam,omschrijving) values("release-Pre-B","https://geonovum.github.io/dso-configuratiemanagement/functionality/release-Pre-B","DSO-pre-B","De functionaliteit die nodig is om het concurrent versioning traject in te gaan.");
 insert into FunctionalityDependencies(functionality,dependson) values ('Release-B','release-Pre-B');
-insert into Functionalities(id,naam,omschrijving) values("Eigenaarschap","Eigenaarschap van Objecten","Bij ieder OW-object is een eigenaar aan te wijzen.");
+insert into Functionalities(id,uri,naam,omschrijving) values("Eigenaarschap","https://geonovum.github.io/dso-configuratiemanagement/functionality/Eigenaarschap","Eigenaarschap van Objecten","Bij ieder OW-object is een eigenaar aan te wijzen.");
 insert into FunctionalityDependencies(functionality,dependson) values ('release-Pre-B','Eigenaarschap');
-insert into Functionalities(id,naam,omschrijving) values("Omgevingsplan","Omgevingsplan","De functionaliteit om een omgevingsplan te publiceren");
+insert into Functionalities(id,uri,naam,omschrijving) values("Omgevingsplan","https://geonovum.github.io/dso-configuratiemanagement/functionality/Omgevingsplan","Omgevingsplan","De functionaliteit om een omgevingsplan te publiceren");
 insert into FunctionalityDependencies(functionality,dependson) values ('Release-A','Omgevingsplan');
-insert into Functionalities(id,naam,omschrijving) values("Omgevingsverordening","Omgevingsverordening","De functionaliteit om een omgevingsverordening te publiceren ");
+insert into Functionalities(id,uri,naam,omschrijving) values("Omgevingsverordening","https://geonovum.github.io/dso-configuratiemanagement/functionality/Omgevingsverordening","Omgevingsverordening","De functionaliteit om een omgevingsverordening te publiceren
+");
 insert into FunctionalityDependencies(functionality,dependson) values ('Release-A','Omgevingsverordening');
-insert into Functionalities(id,naam,omschrijving) values("Omgevingsvisie","Omgevingsvisie","De functionaliteit om een omgevingsvisie te publiceren ");
+insert into Functionalities(id,uri,naam,omschrijving) values("Omgevingsvisie","https://geonovum.github.io/dso-configuratiemanagement/functionality/Omgevingsvisie","Omgevingsvisie","De functionaliteit om een omgevingsvisie te publiceren
+");
 insert into FunctionalityDependencies(functionality,dependson) values ('Release-A','Omgevingsvisie');
 

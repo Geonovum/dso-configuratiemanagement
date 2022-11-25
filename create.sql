@@ -73,6 +73,13 @@ CREATE TABLE ReleaseDependencies
 	foreign key (dependsonitem) references Releases(id)
 );
 
+drop table if exists ReleaseImplementsFunctionality;
+create table ReleaseImplementsFunctionality
+(
+    releaseid text not null,
+    functionalityid txt not null
+);
+
 
 DROP TABLE if exists Organisaties;
 CREATE TABLE Organisaties
